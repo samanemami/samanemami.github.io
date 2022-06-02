@@ -23,7 +23,7 @@ full-time researcher and PhD candidate in Computer science, I have more than 6 y
 
 I currently work as a full-time researcher in the UAM-Machine Learning Group and teacher assistant at UAM University.
 
-## <span class="iconify" data-icon="grommet-icons:plan" data-inline="false"></span> Projetos/Planos
+## <span class="iconify" data-icon="grommet-icons:plan" data-inline="false"></span> Projects
 
 Working on two generic ML models.
 
@@ -39,15 +39,15 @@ Programming Python and Java, Statistical Modeling, Machine Learning, Statistical
 
 ---
 
-# <i class="fa fa-toggle-on"></i> Atual 
+# <i class="fa fa-toggle-on"></i> Current 
 
-## <span class="iconify" data-icon="simple-icons:accenture" data-inline="false"></span> Cientista de Dados - Accenture   
+## <span class="iconify" data-icon="simple-icons:accenture" data-inline="false"></span> Researcher and TA   
 
-#### <span class="iconify" data-icon="clarity:date-line" data-inline="false"></span> 09 / 2020 - até o momento (Tempo Integral)
+#### <span class="iconify" data-icon="clarity:date-line" data-inline="false"></span> 08 / 2020 - until present
 
-* Gerenciar, arquitetar e analisar big data para construir insights baseados em dados e modelos de dados de alto impacto;
-* Criar uma cadeia de valor para ajudar a enfrentar os desafios de adquirir dados, avaliar seu valor, destilar e analisar;
-* Examinar dados de várias fontes e compartilhar percepções que fornecem vantagem competitiva. 
+* Create, develop, and formulate generic machine learning models
+* Run developed models with specific datasets on a cluster server
+* Teach Java laboratory
 
 ---
 
