@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-date: "1993-12-14"
+Last Update: "June-2022"
 ---
 
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -97,89 +97,15 @@ Programming Python and Java, Statistical Modeling, Machine Learning, Statistical
 
 # <i class="fa fa-refresh fa-spin"></i> Computer Skills 
 
-Cursos de Verão:
+* Microsoft office (word, excel, PPT, Access, Outlook)
+* IBM SPSS stochastic
+* SAP-ERP (Supply chain modules, MM – PP)
+* IBM SPSS modeler
+* PowerPivot
+* Tableau
    
-   * [Curso de Verão 2018 - UFRJ: Introdução à Probabilidade](https://www.dropbox.com/preview/Certificados/Certificado%20UFRJ%20Curso%20de%20Verao%20Probabilidade.pdf)
-   * [Curso de Verão 2019 - FGV: Introdução à Análise Real na Reta](https://www.dropbox.com/preview/Certificados/Certificado%20UFRJ%20Curso%20de%20Verao%20Probabilidade.pdf)
-   * [Curso de Verão 2020 - FGV: Introdução à Análise Real na Reta](https://www.dropbox.com/preview/Certificados/Certificado%20UFRJ%20Curso%20de%20Verao%20Probabilidade.pdf)
+# <i class="fa fa-refresh fa-spin"></i> Licenses & certifications
 
-   
-[Curso-R](https://www.curso-r.com/cursos/):
-
-   * [XGBoost](https://www.dropbox.com/s/pb9ayzhskj25him/Captura%20de%20Tela%202020-05-16%20%C3%A0s%2020.16.18.png?dl=0)
-   * [Workshop - Deploy R em produção](https://www.dropbox.com/s/460h1nr67q5fjyw/Captura%20de%20Tela%202020-06-22%20%C3%A0s%2017.47.07.png?dl=0)
-   * [Introdução ao R com C++](https://www.dropbox.com/s/f2r40ewmst2c2i0/Certificado%20curso%20RCPP.png?dl=0)
-   * [Deep Learning](https://www.dropbox.com/s/cubloe585jf3c2d/certificado%20deep%20learning%20curso%20r.png?dl=0)
-   
-DataScienceAcademy:
-
-   * [Programa de mentoria em Data Science](https://www.dropbox.com/s/url9hgx2d785hzs/Certificado%20Mentorado%20Fellipe%20Carvalho%20Gomes.pdf?dl=0)
-   * [Formação Cientista de dados](https://www.dropbox.com/s/73uafvq71nglnw4/Certificado%20FCD%20Fellipe%20Carvalho%20Gomes.pdf?dl=0) 
-      * [Big Data Analytics com R e Microsoft Azure Machine Learning](https://www.dropbox.com/s/rngqhg668m02dbn/certificate-big-data-analytics-com-r-e-microsoft-azure-machine-learning-57b1584047d7dd80cc8b4570.pdf?dl=0)
-      * [Business Analytics](https://www.dropbox.com/s/48ofdzdj2xhonqa/certificate-business-analytics-58e9969d5e4cde52038b4570.pdf?dl=0)
-      * [Visualização de dados e design de Dashboards](https://www.dropbox.com/s/rd61kwbu4fo2ae6/certificate-visualizacao-de-dados-e-design-de-dashboards-58e709435e4cdefbe18b4572.pdf?dl=0)
-      * [Engenharia de Dados com Hadoop e Spark](https://www.dropbox.com/s/0fay6mc5acv98hy/certificate-engenharia-de-dados-com-hadoop-e-spark-57faebb047d7dd0b478b4574.pdf?dl=0)
-      * [Big Data real time analytics com Python e Spark](https://www.dropbox.com/s/0czj5qddk5fqoyc/certificate-big-data-real-time-analytics-com-python-e-spark-57e4c3bd47d7dd281c8b4568.pdf?dl=0)
-      * [Machine Learning](https://www.dropbox.com/s/t3ijls1lq55nth9/certificate-machine-learning-588c218f5e4cdee0af8b456d.pdf?dl=0)
-      * [Big Data Analytics com R e Microsoft Azure Machine Learning](https://www.dropbox.com/s/rngqhg668m02dbn/certificate-big-data-analytics-com-r-e-microsoft-azure-machine-learning-57b1584047d7dd80cc8b4570.pdf?dl=0)
-   
-DataCamp:
-
-   * [Kaggle Python Tutorial on Machine Learning Course](https://www.datacamp.com/statement-of-accomplishment/course/66df173370104b92f62ff831fa43e8415d32a465)
-   * [Intro Python for Data Science Cource](https://www.dropbox.com/s/h9mhc9krk1589ue/Statement%20of%20Accomplishment%20-%20Kaggle%20Python%20Tutorial%20on%20Machine%20Learning%20Course.pdf?dl=0)
-   * [Data Analysis in R, the data.table Way Course](https://www.dropbox.com/s/6lb8dt3tkv20fib/Statement%20of%20Accomplishment%20-%20Data%20Analysis%20in%20R%2C%20the%20data.table%20Way%20Course.pdf?dl=0)
-   * [Machine Learning with Tree-Based Models in R](https://www.dropbox.com/s/bx6nuajd0txf5zd/Statement%20of%20Accomplishment%20-%20Machine%20Learning%20with%20Tree-Based%20Models%20in%20R.pdf?dl=0)
-   * [Correlation and Regression Course]()
-   * [Machine Learning in the Tidyverse](https://www.dropbox.com/s/tr9zipnnwz3l0tn/Statement%20of%20Accomplishment%20-%20Machine%20Learning%20in%20the%20Tidyverse.pdf?dl=0)
-   * [Time Series with R - SKILL TRACK](https://www.datacamp.com/statement-of-accomplishment/track/a9f5e59b4440afcfd23a1ad0b6712a8d30418486) (6 cursos:)
-      * [Manipulating Time Series Data in R with xts & zoo](https://www.dropbox.com/s/minbubg2dag6kn5/Statement%20of%20Accomplishment%20-%20Manipulating%20Time%20Series%20Data%20in%20R%20with%20xts%20%26%20zoo.pdf?dl=0)
-      * [Introduction to Time Series Analysis Course](https://www.dropbox.com/s/hg7hbw2793c7vyq/Statement%20of%20Accomplishment%20-%20Introduction%20to%20Time%20Series%20Analysis%20Course.pdf?dl=0)
-      * [ARIMA Modeling with R Course](https://www.dropbox.com/s/y6zp9mgmt0khlpc/Statement%20of%20Accomplishment%20-%20ARIMA%20Modeling%20with%20R%20Course.pdf?dl=0)
-      * [Forecasting Using R](https://www.datacamp.com/statement-of-accomplishment/course/4eaee3ad1c179377e59b1c7b5e115bbf2a85efb4)
-      * [Visualizing Time Series Data in R](https://www.datacamp.com/statement-of-accomplishment/course/c4b05ad717d26c6c3827f2f862ea262503866e3f)
-      * [Manipulating Time Series Data in R: Case
-Studies](https://www.datacamp.com/statement-of-accomplishment/course/86679df81182605a320ef4d4a766ef8573fe7cf9)
-
-Seminários/Minicursos:
-
-   * [Agenda Acadêmica 2014 - VI Semana da Estatística- SEMEST UFF](https://www.dropbox.com/s/asjb9duxjdxghtr/semest%202014.pdf?dl=0)
-   * [Agenda Acadêmica 2015 - VII Semana da Estatística - SEMEST UFF](https://www.dropbox.com/s/j94jljwczoa0ofa/semest%202015.pdf?dl=0)
-   * [Minicurso SER II - Desenvolvimento de Dashboards interativos com o R](https://www.dropbox.com/s/beih8kr1h1th5uy/Certificado%20SER%20II.pdf?dl=0)
-   * [SER II: Seminário Internacional de Estatística com R](https://www.dropbox.com/s/f0flm3mevnt6qm9/SER%202016.pdf?dl=0)
-   * [Workshop BI MASTER - PUC](https://www.dropbox.com/s/9ocxw4tmm6s7udm/FELIPE%20CARVALHO%20-%20BI%20MASTER%202017.pdf?dl=0)
-   * [Minicurso SER III - Modelos de Regressão Linear Politômicos](https://www.dropbox.com/s/lyo93zpltq9k2qj/Certificado%20SER%20III%20-%20minicurso%20Modelos%20de%20Regressao%20Politomicos.pdf?dl=0)
-   * [Minicurso SER III - Web Scraping utilizando o pacote Rvest](https://www.dropbox.com/s/9u0rtj6uayxc18n/Certificado%20SER%20III%20-%20minicurso%20Web%20Scraping.pdf?dl=0)
-   * [SER III Seminário Internacional de Estatística com R](https://www.dropbox.com/s/fdo3namqkmuy51j/Certificado%20SER%20III.pdf?dl=0)
-   * [SER IV Seminário Internacional de Estatística com R](https://www.dropbox.com/s/ap5hr6q5hdlx75m/Certificado%20SER%20IV%20Fellipe%20Carvalho%20Gomes.pdf?dl=0)
-
-Udemy:
-
-   * [Análise Exploratória de Dados - Udemy](https://www.udemy.com/certificate/UC-2HR7P4JI/)
-   * [Visualização de Dados e Dashboards: Boas Práticas - Udemy](https://www.udemy.com/certificate/UC-G1KTLZXL/)
-   * [Criando Páginas Web com o GitHub Pages - Udemy](https://www.udemy.com/certificate/UC-CNH02APP/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email)
-   * [Formação Cientista de Dados - Udemy](https://www.udemy.com/certificate/UC-OCF4FMC6/)
-   * [Super Formação Inteligência Artificial e Machine Learning - Udemy](https://www.udemy.com/certificate/UC-UREKLP27/)
-   
-Apresentações:
-
-* [Ciência de Dados - Uma Visão Geral](https://www.dropbox.com/s/svm5zwgzkkvadu8/certificado-apresentacao-o-que-e-ciencia-de-dados-ias-uff.pdf?dl=0)
-
-Cursos Gerais:
-
-* [Splunk 7.x Fundamentals Part 1 (IOD)](https://www.dropbox.com/s/ad2n1b1zx1kaon5/splunk_1.pdf?dl=0)
-* [Splunk 7.x Fundamentals Part 2 (IOD)](https://www.dropbox.com/s/0u3qp8bifhtznbb/splunk_2.pdf?dl=0)
-   
-Desenvolvimento Pessoal:
-
-   * [Inteligência Emocional - Conquer](https://www.dropbox.com/s/y9dttdfkdzn2yk0/conquer_inteligencia_emocional.pdf?dl=0)
-   * [Reaprendizagem Criativa - Keep Learning School](https://www.dropbox.com/s/r2vin6k2imrn71q/Re-aprendizagem%20Criativa%20-%20Keep%20Learning.pdf?dl=0)
-   * [Técnicas de criatividade - Keep Learning School](https://www.dropbox.com/s/911tcwkjntl4ptb/tecnicas-de-criatividade-murilo-gun.pdf?dl=0)
-   * [Curso de Meditação Método DeRose]()
-   
-
- 
-
-
-<i class="fa fa-download"></i> Download da versão em pdf [aqui](https://www.dropbox.com/s/8ulv1m6jubdzf79/CV_Fellipe_Gomes.pdf?dl=0)
+<i class="fa fa-download"></i> Download the list of my certificates [aqui](https://www.linkedin.com/in/saman-emami/details/certifications/)
 
 
