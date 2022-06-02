@@ -7,44 +7,35 @@ date: "1993-12-14"
 
 # <i class='fa fa-file-pdf-o'></i> Fellipe Carvalho Gomes
 
-<i class="fa fa-download"></i> Download da versão em pdf [aqui](https://www.dropbox.com/s/8ulv1m6jubdzf79/CV_Fellipe_Gomes.pdf?dl=0)
+<i class="fa fa-download"></i> Download the pdf version [aqui](https://drive.google.com/file/d/1OSRKEUwTW9hiL_wiS5JoNs0gQxQa_S-P/view?usp=sharing)
 
-* <i class='fa fa-birthday-cake'></i>   14/12/1993 
-* <i class='fa fa-whatsapp'></i>  (21) 99209-9067
-* <i class='fa fa-google'></i>  <gomes.fellipe1@gmail.com>
-* <i class='fa fa-github-alt'></i> [github.com/gomesfellipe](github.com/gomesfellipe)
-* <i class='fa fa-linkedin-square'></i>   <https://www.linkedin.com/in/gomesfellipe/>
-* <i class='fa fa-skype'></i>   <gomes.fellipe@hotmail.com>
-* <i class='fa fa-align-justify'></i>   <http://lattes.cnpq.br/2860433689709342>
-* <span class="iconify" data-icon="simple-icons:kaggle" data-inline="false"></span>  <https://www.kaggle.com/gomes555>
-* <i class='fa fa-medium'></i>  <https://medium.com/@gomesfellipe>
+* <i class='fa fa-birthday-cake'></i>   02/06/1989 
+* <i class='fa fa-github-alt'></i> [https://github.com/samanemami](https://github.com/samanemami)
+* <i class='fa fa-linkedin-square'></i>   <https://www.linkedin.com/in/saman-emami/>
+* <span class="iconify" data-icon="simple-icons:kaggle" data-inline="false"></span>  <https://www.kaggle.com/samanemami>
+* <i class='fa fa-medium'></i>  <https://medium.com/@samanemami>
 
-## <span class="iconify" data-icon="bi:info-circle" data-inline="false"></span> Sobre mim
+## <span class="iconify" data-icon="bi:info-circle" data-inline="false"></span> About me
 
-Apaixonado por dados e tecnologia, possuo experiência de mais de 5 anos de trabalho diário com linguagem R e Python para fins acadêmicos, profissionais e pessoais. Atividades práticas como coleta, preparação e análise automatizada de dados, visualizações profissionais, desenvolvimento de aplicações web e Dashboards, modelagem estatística, Machine Learning, Linux, banco de dados e mecanismos de busca fazem parte do meu dia a dia.
+full-time researcher and PhD candidate in Computer science, I have more than 6 years of experience working daily with Python for academic, professional, and personal purposes. Developing generic Machine learning algorithms, statistical analysis, developing mathematical models.
 
 ## <span class="iconify" data-icon="bytesize:work" data-inline="false"></span> Profissional
 
-Atualmente atuo na área de Data Science na Accenture onde meu objetivo é aplicar conhecimentos de estatística e ciência de dados para desenvolvimento e implementação de modelos de Machine Learning para produção. 
+I currently work as a full-time researcher in the UAM-Machine Learning Group and teacher assistant at UAM University.
 
 ## <span class="iconify" data-icon="grommet-icons:plan" data-inline="false"></span> Projetos/Planos
 
-Formado em Estatística pela UFF e cursando MBA em Data Science na FGV, tenho participado de forma mais ativa no [Kaggle](https://www.kaggle.com/gomes555) (Kaggle Master) e faço cursos online constantemente tanto sobre minha área de atuação quanto sobre assuntos diversos como filosofia, desenvolvimento pessoal, empreendedorismo, performance, criatividade e inovação. Me considero um eterno aprendiz.
+Working on two generic ML models.
 
-Minha intenção com este blog é poder compartilhar minha evolução e interagir com pessoas que se interessam pela Estatística e Ciência de Dados em geral. Também escrevo para a página Ensina.AI no Medium.
+## <span class="iconify" data-icon="fluent:rocket-16-regular" data-inline="false"></span> Expertise:
 
-Me divirto e aprendo bastante com todos esses projetos! 
-
-## <span class="iconify" data-icon="fluent:rocket-16-regular" data-inline="false"></span> Especialidades:
-
-Programação em R e Python, Modelagem Estatística, Machine Learning, Análises Estatísticas, Text Mining, NLP, Automação, Visualizações, Desenvolvimento de aplicações Web e Dashboards (utilizando biblioteca Shiny) 
+Programming Python and Java, Statistical Modeling, Machine Learning, Statistical Analysis.
 
 ---
 
-# <i class='fa fa-institution'></i> Formação Acadêmica
+# <i class='fa fa-institution'></i> Academic:
  	
-* Curso de Graduação em Estatística– concluído em 2018 - UFF - Universidade Federal Fluminense
-* MBA em Business Analytics e Big Data – concluído em 2021 - FGV - Fundação Getúlio Vargas
+* Last Year PhD candidate at the University Autonoma Of Madrid.
 
 ---
 
