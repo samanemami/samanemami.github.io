@@ -42,43 +42,37 @@ A wrapper of the tf.BoostedTree of tensorflow based on the Sklearn standard. Thi
     
     <item>
       <title>Input space expansion Base line</title>
-      <link>https://samanemami.github.io/apps/appwordcloud/</link>
+      <link>https://github.com/samanemami/Input_space_expansion_Base_line</link>
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://samanemami.github.io/apps/appwordcloud/</guid>
-      <description>Aplicativo para construir Wordcloud Link do repositório no github: https://github.com/gomesfellipe/appwordcloud
-Link de acesso ao app: https://gomesfellipe.shinyapps.io/appwordcloud/
- NOVA VERSÃO DA NUVEM DE PALAVRAS!!
-Nova versão conta agora com a tabela de frequências dos termos identificados na análise!
-Esta pasta conta com os seguintes arquivos:
-Base de dados (obtida através do social searcher):
- base.csv - exemplo de base de dados como input do aplicativo (obs.: codificação UTF-8)  Complementos:</description>
+      <guid>https://github.com/samanemami/Input_space_expansion_Base_line</guid>
+      <description>GitHub Repository link: https://github.com/samanemami/Input_space_expansion_Base_line
+In this project, I implemented a baseline for the "Multi-target regression via input space expansion: treating targets as inputs" (Spyromitros-Xioufis, Eleftherios, et al.) experiments. Having a baseline for the reference experiment brings more insight into the advantages of using output as an input in the model. This _multivariate class includes three different experiments as follows;
+Normal regression,
+Predicting output via other outputs,
+Augmenting input with the output.</description>
     </item>
     
     <item>
-      <title>Aplicativo para análise multivariada</title>
-      <link>https://samanemami.github.io/apps/apppcakmeans/</link>
+      <title>Input space expansion</title>
+      <link>https://github.com/samanemami/Input_space_expansion</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://samanemami.github.io/apps/apppcakmeans/</guid>
+      <guid>https://github.com/samanemami/Input_space_expansion</guid>
       <description>Aplicativo para realizar análise multivariada Link do repositório no github: https://github.com/gomesfellipe/appPCAkmeans
-Link de acesso do app : https://gomesfellipe.shinyapps.io/appPCAkmeans/
- Esta pasta conta com os seguintes arquivos:
-Base de dados iris (base de dados nativa do R)
- base-iris.csv - exemplo de base de dados como imput do aplicativo  Código do aplicativo:
- appPCAkmeans.Rmd - Script do código responsável por rodar o aplicativo  Agrupamento - Machine Learning A análise de componentes principais e a busca por clusters é uma tarefa muito comum quando não conhecemos a classificação.</description>
+GitHub Repository link: https://github.com/samanemami/Input_space_expansion
+ The focus of this project is to reproduce the two well-known multioutput regression models. The SST and ERC are introduced by Spyromitros-Xioufis, Eleftherios, et al. The main work is presented in Java here.</description>
     </item>
     
     <item>
-      <title>Dashboard com textmining de mídias sociais</title>
-      <link>https://samanemami.github.io/apps/dashboard-text-mining-1/</link>
+      <title>TOPSIS</title>
+      <link>https://github.com/samanemami/TOPSIS</link>
       <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://samanemami.github.io/apps/dashboard-text-mining-1/</guid>
+      <guid>https://github.com/samanemami/TOPSIS</guid>
       <description>Dashboard text mining v1 Link do repositório no github: https://github.com/gomesfellipe/dashboard-text-mining-1
-Link de acesso ao dashboard : https://gomesfellipe.shinyapps.io/dashboard-text-mining-1/
- Motivação Elaborar este dashboard foi uma tarefa que decidi executar pois me foi perguntado se era possível &amp;ldquo;alguma coisa&amp;rdquo; com os dados obtidos através da ferramenta Social Searcher responsável por captar informações de diferentes mídias sociais sob algum tópico de interesse.
-Decidi então praticar a criação de dashboards com R e juntei algumas abordagens simples de text mining em um dashboard produzido através do pacote flexdashboard, disponível no CRAN.</description>
+GitHub Repository link: https://github.com/samanemami/TOPSIS
+ Technique for Order of Preference by Similarity to Ideal Solution (Hwang, Ching-Lai, and Kwangsun Yoon.)</description>
     </item>
     
   </channel>
