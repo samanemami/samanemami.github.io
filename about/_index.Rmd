@@ -107,5 +107,3 @@ Programming Python and Java, Statistical Modeling, Machine Learning, Statistical
 # <i class="fa fa-refresh fa-spin"></i> Licenses & certifications
 
 <i class="fa fa-download"></i> Download the list of my certificates [aqui](https://www.linkedin.com/in/saman-emami/details/certifications/)
-
-
