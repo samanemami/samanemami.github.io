@@ -30,19 +30,18 @@ GitHub Repository link: https://github.com/GAA-UAM/GBNN
     </item>
     
     <item>
-      <title>App ações (simples)</title>
-      <link>https://samanemami.github.io/apps/app_acoes/</link>
+      <title>TFBT.BoostedTree</title>
+      <link>https://github.com/samanemami/TFBoostedTree</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://samanemami.github.io/apps/app_acoes/</guid>
-      <description>App acoes Link do repositório no github: https://github.com/gomesfellipe/app_acoes
- Aplicativo para visualizar acoes com os pacotes highcharter e quantmod
-Demonstração: Fonte de dados Os simbolos foram coletados com a função stockSymbols() e também foram acrescentadas outros simbolos manualmente, são eles:
- BTC-USD ETH-USD LTC-USD XRP-USD ADA-USD CIEL3F.SA ITSA4.SA PETR4.SA BBDC4F.SA PCAR4F.SA ABEV3.SA BVMF3.SA  Próximos passos Conseguir de forma automática os simbolos de todas as ações IBOVESPA</description>
+      <guid>https://github.com/samanemami/TFBoostedTree</guid>
+      <description>GitHub Repository link: https://github.com/samanemami/TFBoostedTree
+ A gradient boosting classifier based on the tensorflow.
+A wrapper of the tf.BoostedTree of tensorflow based on the Sklearn standard. This model, unlike the TF method, has fit and score methods. Therefore, one can implement gridsearchCV or pipeline as well.</description>
     </item>
     
     <item>
-      <title>Aplicativo para construir Wordcloud</title>
+      <title>Input space expansion Base line</title>
       <link>https://samanemami.github.io/apps/appwordcloud/</link>
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
