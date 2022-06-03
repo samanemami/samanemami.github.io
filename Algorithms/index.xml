@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithms</title>
-    <link>https://samanemami.github.io/apps/</link>
+    <link>https://samanemami.github.io/Algorithms/</link>
     <description>My developed algorithms</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
