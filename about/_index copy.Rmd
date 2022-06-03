@@ -1,0 +1,109 @@
+---
+title: "Curriculum Vitae"
+Last Update: "June-2022"
+---
+
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+# <i class='fa fa-file-pdf-o'></i> Seyedsaman Emami
+
+<i class="fa fa-download"></i> Download the pdf version [aqui](https://drive.google.com/file/d/1OSRKEUwTW9hiL_wiS5JoNs0gQxQa_S-P/view?usp=sharing)
+
+* <i class='fa fa-birthday-cake'></i>   02/06/1989 
+* <i class='fa fa-github-alt'></i> [https://github.com/samanemami](https://github.com/samanemami)
+* <i class='fa fa-linkedin-square'></i>   <https://www.linkedin.com/in/saman-emami/>
+* <span class="iconify" data-icon="simple-icons:kaggle" data-inline="false"></span>  <https://www.kaggle.com/samanemami>
+* <i class='fa fa-medium'></i>  <https://medium.com/@samanemami>
+
+## <span class="iconify" data-icon="bi:info-circle" data-inline="false"></span> About me
+
+full-time researcher and PhD candidate in Computer science, I have more than 6 years of experience working daily with Python for academic, professional, and personal purposes. Developing generic Machine learning algorithms, statistical analysis, developing mathematical models.
+
+## <span class="iconify" data-icon="bytesize:work" data-inline="false"></span> Profissional
+
+I currently work as a full-time researcher in the UAM-Machine Learning Group and teacher assistant at UAM University.
+
+## <span class="iconify" data-icon="grommet-icons:plan" data-inline="false"></span> Projects
+
+Working on two generic ML models.
+
+## <span class="iconify" data-icon="fluent:rocket-16-regular" data-inline="false"></span> Expertise:
+
+Programming Python and Java, Statistical Modeling, Machine Learning, Statistical Analysis.
+
+---
+
+# <i class='fa fa-institution'></i> Academic:
+ 	
+* Last Year PhD candidate at the University Autonoma Of Madrid.
+
+---
+
+# <i class="fa fa-toggle-on"></i> Current 
+
+## <span class="iconify" data-icon="simple-icons:accenture" data-inline="false"></span> Researcher and TA   
+
+#### <span class="iconify" data-icon="clarity:date-line" data-inline="false"></span> 08 / 2020 - until present
+
+* Create, develop, and formulate generic machine learning models
+* Run developed models with specific datasets on a cluster server
+* Teach Java laboratory
+
+---
+
+# <i class='fa fa-certificate'></i> Professional experience
+
+### <span class="iconify" data-icon="ic:twotone-science" data-inline="false"></span> Statistics and Planning
+
+#### <span class="iconify" data-icon="clarity:date-line" data-inline="false"></span> 12 / 2018 - 08 / 2019
+
+* Production planning.
+* Implementing Work study.
+* Analysis of sales and production data.
+* Monitoring and optimizing waste trends.
+* Develop MM and PP modules in SAP-ERP.
+* Developing a decision tree for material planning.
+* Adjust production capacity based on sales forecast.
+
+### <span class="iconify" data-icon="ic:twotone-science" data-inline="false"></span> Systems and Methods
+
+####  <span class="iconify" data-icon="clarity:date-line" data-inline="false"></span> 08 / 2015 - 12 / 2018
+
+* Mapping process.
+* Product and process auditing.
+* Determining process indicators.
+* Assessing the maturity of the process.
+* Cooperation in ERP Team to set up SAP.
+* Re-engineering organization process-BPR.
+* Identify, prioritize, manage and control Improvement projects.
+* Forming an audit team and conducting periodic internal audits.
+* Publish and implement procedures for network and data security.
+* Predicting (Machine learning) the influential factors in maintenance planning.
+
+--- 
+ 
+# <i class="fa fa-refresh fa-spin"></i> Programming Skills 
+
+* Python
+* R
+* Java
+* <span class="latex">LaTeX</span> and Markdown
+* HTML5
+* SQL
+* Bash
+* Linux
+
+---
+
+# <i class="fa fa-refresh fa-spin"></i> Computer Skills 
+
+* Microsoft office (word, excel, PPT, Access, Outlook)
+* IBM SPSS stochastic
+* SAP-ERP (Supply chain modules, MM – PP)
+* IBM SPSS modeler
+* PowerPivot
+* Tableau
+   
+# <i class="fa fa-refresh fa-spin"></i> Licenses & certifications
+
+<i class="fa fa-download"></i> Download the list of my certificates [aqui](https://www.linkedin.com/in/saman-emami/details/certifications/)
