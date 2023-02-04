@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>paper</title>
-    <link>https://samanemami.github.io/paper/</link>
+    <link>https://saman.github.io/paper/</link>
     <description>Recent content in paper</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://samanemami.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://saman.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
