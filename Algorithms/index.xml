@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithms</title>
-    <link>https://saman.github.io/Algorithms/</link>
+    <link>https://samanemami.github.io/Algorithms/</link>
     <description>My developed algorithms</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saman.github.io/Algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://samanemami.github.io/Algorithms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GBNN</title>
       <link>https://github.com/GAA-UAM/GBNN</link>
