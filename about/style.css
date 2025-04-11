@@ -20,25 +20,8 @@ h3 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-/* ul li {
-    margin-bottom: 0.5rem;
-    display: flex;
-    align-items: center;
-}
-
-ul li i,
-ul li .iconify {
-    margin-right: 0.5rem;
-    color: #0077b6;
-} */
-
 a {
-    color: #005f8a;
+    color: #06587e;
     /* Darker blue for normal state */
     text-decoration: none;
     transition: color 0.3s ease;

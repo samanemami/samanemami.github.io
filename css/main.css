@@ -3196,10 +3196,9 @@ body.is-share-visible #share-menu {
 	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-
 .video-frame {
 	width: 100%;
-	max-width: 600px;
+	max-width: 360px;
 	margin: 20px auto;
 	padding: 10px;
 	background-color: #f1f1f1;
