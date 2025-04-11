@@ -3272,3 +3272,20 @@ iframe {
 		transform: translateY(0);
 	}
 }
+
+.section-box-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-box {
+	width: 48%;
+	/* Adjust width as needed */
+	margin-right: 2%;
+	/* Optional, if you want space between columns */
+}
+
+.section-box:last-child {
+	margin-right: 0;
+	/* Remove margin for the last box */
+}
