@@ -478,26 +478,36 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 
+
+
+
 :root {
 	--font-primary: 'Inter', sans-serif;
 	--font-accent: 'Raleway', sans-serif;
-	--color-accent: #2ebaae;
+	--font-main: 'Inter', sans-serif;
+
 	--bg-color: #fdf6f0;
 	--text-color: #1f2937;
-	--accent-color: #6366f1;
-	/* Indigo 500 */
-	--font-main: 'Inter', sans-serif;
-}
 
-:root {
-	--accent-color: #6366f1;
-	/* Indigo */
-	--accent-color-hover: #4f46e5;
-	--font-main: 'Inter', sans-serif;
+	--accent-color: #7c3aed;
+	/* Violet 600 — warmer than indigo */
+	--accent-color-hover: #6d28d9;
+	/* Violet 700 */
+
+	--success-color: #34d399;
+	/* Emerald 400 */
+	--success-hover: #10b981;
+	/* Emerald 500 */
+
+	--danger-color: #f87171;
+	/* Red 400 */
+	--danger-hover: #ef4444;
+	/* Red 500 */
+
+	--border-color-soft: #e7dcd2;
+
 	--background-dark: #1f1f1f;
-	/* Dark background for dark mode */
-	--text-light: white;
-	/* Light text color for dark mode */
+	--text-light: #ffffff;
 }
 
 .button {
@@ -509,29 +519,29 @@ input[type="button"],
 	font-weight: 600;
 	padding: 0.75rem 1.5rem;
 	border-radius: 0.75rem;
-	box-shadow: 0 4px 10px rgba(99, 102, 241, 0.2);
 	border: none;
+	box-shadow: 0 4px 12px rgba(124, 58, 237, 0.15);
+	/* Violet shadow */
 	cursor: pointer;
 	transition: all 0.2s ease;
 }
 
 .button:hover {
 	background-color: var(--accent-color-hover);
-	box-shadow: 0 6px 14px rgba(79, 70, 229, 0.25);
+	box-shadow: 0 6px 16px rgba(109, 40, 217, 0.2);
 	transform: translateY(-2px);
 }
 
 .button:active {
 	transform: translateY(1px);
-	box-shadow: 0 3px 6px rgba(79, 70, 229, 0.15);
+	box-shadow: 0 3px 6px rgba(109, 40, 217, 0.12);
 }
 
-/* 🔳 Outline Variant */
+/* Outline Variant */
 .button.outline {
 	background: transparent;
 	color: var(--accent-color);
 	border: 2px solid var(--accent-color);
-	box-shadow: none;
 }
 
 .button.outline:hover {
@@ -539,33 +549,23 @@ input[type="button"],
 	color: white;
 }
 
-/* 📏 Size Variants */
-.button.small {
-	font-size: 0.875rem;
-	padding: 0.5rem 1rem;
-}
-
-.button.large {
-	font-size: 1.125rem;
-	padding: 1rem 2rem;
-}
-
-/* 💥 Status Colors */
+/* Status Buttons */
 .button.success {
-	background-color: #10b981;
+	background-color: var(--success-color);
 }
 
 .button.success:hover {
-	background-color: #059669;
+	background-color: var(--success-hover);
 }
 
 .button.danger {
-	background-color: #ef4444;
+	background-color: var(--danger-color);
 }
 
 .button.danger:hover {
-	background-color: #dc2626;
+	background-color: var(--danger-hover);
 }
+
 
 h1 {
 	font-size: clamp(1.5rem, 2vw, 2.5rem);
@@ -3234,36 +3234,41 @@ iframe {
 }
 
 .section-box {
-	background: f5f5f5;
+	background-color: #ffffff;
+	/* Slight contrast with fdf6f0 */
+	border: 1px solid #e7dcd2;
+	/* Soft warm border */
 	padding: 2rem;
 	margin-bottom: 2rem;
 	border-radius: 1rem;
-	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-	transition: box-shadow 0.3s ease;
+
+	box-shadow:
+		0 2px 4px rgba(0, 0, 0, 0.03),
+		0 6px 20px rgba(0, 0, 0, 0.05);
+	/* Layered shadow for soft depth */
+
+	transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .section-box:hover {
-	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+	transform: translateY(-4px);
+	box-shadow:
+		0 4px 8px rgba(0, 0, 0, 0.04),
+		0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
-.general-box {
-	background-color: #ffffff;
-	/* subtle contrast against fdf6f0 */
-	border: 1px solid #e7dcd2;
-	/* soft beige border tone */
-	border-radius: 16px;
-	padding: 1.5rem;
-	margin: 2rem 0;
-	box-shadow:
-		0 2px 6px rgba(0, 0, 0, 0.04),
-		0 4px 12px rgba(0, 0, 0, 0.06);
-	/* layered, modern shadow */
-	transition: box-shadow 0.3s ease;
+.section-box {
+	animation: fadeInUp 0.5s ease both;
 }
 
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
 
-.general-box:hover {
-	box-shadow:
-		0 6px 16px rgba(0, 0, 0, 0.08),
-		0 8px 24px rgba(0, 0, 0, 0.1);
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
