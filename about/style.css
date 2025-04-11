@@ -38,12 +38,29 @@ ul li .iconify {
 }
 
 a {
-    color: #0077b6;
+    color: #005f8a;
+    /* Darker blue for normal state */
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
+    color: #003e5c;
+    /* Darker shade for hover state */
     text-decoration: underline;
+}
+
+/* Dark Theme Adjustments */
+@media (prefers-color-scheme: dark) {
+    a {
+        color: #77b1d6;
+        /* Lighter blue for dark mode */
+    }
+
+    a:hover {
+        color: #4b8dbe;
+        /* Slightly darker for hover in dark mode */
+    }
 }
 
 .skills-box {
@@ -131,4 +148,32 @@ a:hover {
 
 .roles-box a:hover {
     text-decoration: underline;
+}
+
+.button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #005f8a;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    background-color: #004f73;
+    transform: translateY(0);
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 119, 182, 0.4);
 }
