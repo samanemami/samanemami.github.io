@@ -156,10 +156,6 @@ table {
 	width: device-width;
 }
 
-body {
-	-ms-overflow-style: scrollbar;
-}
-
 @media screen and (max-width: 480px) {
 
 	html,
@@ -178,6 +174,7 @@ body {
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
+	-ms-overflow-style: scrollbar;
 }
 
 body.is-loading *,
@@ -485,7 +482,7 @@ input[type="button"],
 	--font-primary: 'Inter', sans-serif;
 	--font-accent: 'Raleway', sans-serif;
 	--color-accent: #2ebaae;
-	--bg-color: #f9fafb;
+	--bg-color: #fdf6f0;
 	--text-color: #1f2937;
 	--accent-color: #6366f1;
 	/* Indigo 500 */
@@ -3234,4 +3231,17 @@ iframe {
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 10px;
+}
+
+.section-box {
+	background: white;
+	padding: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+	transition: box-shadow 0.3s ease;
+}
+
+.section-box:hover {
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
