@@ -1503,6 +1503,7 @@ dl dd {
 #content p a,
 #content ul li a {
 	border-bottom: dotted 2px rgba(160, 160, 160, .65);
+	color: #005f8a;
 }
 
 #content p a:hover {
@@ -3232,6 +3233,42 @@ iframe {
 	max-height: 100%;
 	border-radius: 10px;
 }
+
+
+
+.section-box-full {
+	background-color: #ffffff;
+	/* Slight contrast with fdf6f0 */
+	border: 1px solid #e7dcd2;
+	/* Soft warm border */
+	padding: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 1rem;
+
+	box-shadow:
+		0 2px 4px rgba(0, 0, 0, 0.03),
+		0 6px 20px rgba(0, 0, 0, 0.05);
+	/* Layered shadow for soft depth */
+
+	transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.section-box-full:hover {
+	transform: translateY(-4px);
+	box-shadow:
+		0 4px 8px rgba(0, 0, 0, 0.04),
+		0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.section-box-full {
+	animation: fadeInUp 0.5s ease both;
+}
+
+
+
+
+
+
 
 .section-box {
 	background-color: #ffffff;
