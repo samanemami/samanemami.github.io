@@ -3289,3 +3289,26 @@ iframe {
 	margin-right: 0;
 	/* Remove margin for the last box */
 }
+
+.profile-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	/* Optional: This centers the text inside the header */
+}
+
+.name-block h1,
+.name-block h3 {
+	margin: 0;
+	/* Optional: Remove default margin for better alignment */
+}
+
+.profile-links {
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+	/* Centers the profile links horizontally */
+	flex-wrap: wrap;
+	/* Allow the links to wrap on smaller screens */
+}
