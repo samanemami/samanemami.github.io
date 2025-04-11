@@ -3234,7 +3234,7 @@ iframe {
 }
 
 .section-box {
-	background: white;
+	background: f5f5f5;
 	padding: 2rem;
 	margin-bottom: 2rem;
 	border-radius: 1rem;
@@ -3244,4 +3244,26 @@ iframe {
 
 .section-box:hover {
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.general-box {
+	background-color: #ffffff;
+	/* subtle contrast against fdf6f0 */
+	border: 1px solid #e7dcd2;
+	/* soft beige border tone */
+	border-radius: 16px;
+	padding: 1.5rem;
+	margin: 2rem 0;
+	box-shadow:
+		0 2px 6px rgba(0, 0, 0, 0.04),
+		0 4px 12px rgba(0, 0, 0, 0.06);
+	/* layered, modern shadow */
+	transition: box-shadow 0.3s ease;
+}
+
+
+.general-box:hover {
+	box-shadow:
+		0 6px 16px rgba(0, 0, 0, 0.08),
+		0 8px 24px rgba(0, 0, 0, 0.1);
 }
