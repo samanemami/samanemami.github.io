@@ -2324,40 +2324,35 @@ body {
 }
 
 /* Header Base */
+
+
+
+body {
+	padding-top: 3.5em;
+}
+
 #header {
 	display: flex;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
 	justify-content: space-between;
 	background-color: #ffffff;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 	height: 3.5em;
+	left: 0;
 	line-height: 3.5em;
 	position: fixed;
 	top: 0;
-	left: 0;
 	width: 100%;
 	z-index: 10000;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-/* Brand + Title */
-#header h1,
-#header h2 {
-	padding-left: 1.5em;
-	white-space: nowrap;
-	min-width: 12.4em;
-	font-weight: 600;
-	font-size: 1em;
-	color: #1a1a1a;
-}
-
-#header h1 a,
-#header h2 a {
-	font-size: 0.85em;
+#header a {
 	color: inherit;
 	text-decoration: none;
 }
 
-/* Nav List */
 #header ul {
 	list-style: none;
 	margin: 0;
@@ -2366,24 +2361,69 @@ body {
 
 #header ul li {
 	display: inline-block;
+	padding-left: 0;
 }
 
-/* Link Style */
-#header a {
-	color: inherit;
-	text-decoration: none;
-	transition: color 0.3s ease, opacity 0.3s ease;
+#header h1 {
+	height: inherit;
+	line-height: inherit;
+	padding: 0 0 0 1.5em;
+	white-space: nowrap;
+	min-width: 12.4em;
+}
+
+#header h1 a {
+	font-size: 0.7em;
+}
+
+#header h2 {
+	font-size: inherit;
+	height: inherit;
+	line-height: inherit;
+	padding: 0 0 0 1.5em;
+	white-space: nowrap;
+}
+
+#header h2 a {
+	font-size: 0.7em;
+}
+
+@media screen and (max-width: 736px) {
+	#header h2 {
+		padding: 0 0 0 1em;
+	}
 }
 
 #header .links {
+	-moz-flex: 1;
+	-webkit-flex: 1;
+
 	flex: 1;
-	border-left: 1px solid rgba(0, 0, 0, 0.1);
-	padding-left: 1.5em;
+	border-left: solid 1px rgba(160, 160, 160, 0.3);
+	height: inherit;
+	line-height: inherit;
+	margin-left: 1.5em;
 	overflow: hidden;
+	padding-left: 1.5em;
+}
+
+#header .links a {
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=65);
+
+	/* Modern Browsers */
+	opacity: 0.65;
 }
 
 #header .links ul li {
-	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: solid 1px rgba(160, 160, 160, 0.3);
+	line-height: 1;
 	margin-left: 1em;
 	padding-left: 1em;
 }
@@ -2395,27 +2435,29 @@ body {
 }
 
 #header .links ul li a {
-	font-family: 'Poppins', sans-serif;
-	font-size: 0.75em;
-	font-weight: 500;
-	letter-spacing: 0.15em;
+	border-bottom: 0;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+	letter-spacing: 0.25em;
 	text-transform: uppercase;
-	color: #4b5563;
-	opacity: 0.75;
 }
 
-#header .links ul li a:hover {
-	opacity: 1;
-	color: #111827;
-}
-
-/* Main Section (Icons etc.) */
 #header .main {
+	height: inherit;
+	line-height: inherit;
 	text-align: right;
 }
 
+#header .main ul {
+	height: inherit;
+	line-height: inherit;
+}
+
 #header .main ul li {
-	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: solid 1px rgba(160, 160, 160, 0.3);
+	height: inherit;
+	line-height: inherit;
 	white-space: nowrap;
 }
 
@@ -2425,34 +2467,48 @@ body {
 }
 
 #header .main ul li>a {
-	color: #4b5563;
-	opacity: 0.5;
+	text-decoration: none;
+	border-bottom: 0;
+	color: #aaaaaa;
+	overflow: hidden;
 	position: relative;
 	text-indent: 4em;
 	width: 4em;
-	transition: opacity 0.3s ease;
-}
+	color: #333333;
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
 
-#header .main ul li>a:hover {
-	opacity: 0.85;
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=35);
+
+	/* Modern Browsers */
+	opacity: 0.35;
 }
 
 #header .main ul li>a:before {
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 900;
-	display: block;
-	text-align: center;
-	text-indent: 0;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: inherit;
-	height: inherit;
-	line-height: inherit;
-	color: #111827;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
 }
 
-/* Search Bar */
+#header .main ul li>a:before {
+	display: block;
+	height: inherit;
+	left: 0;
+	line-height: inherit;
+	position: absolute;
+	text-align: center;
+	text-indent: 0;
+	top: 0;
+	width: inherit;
+}
+
 #header form {
 	margin: 0;
 }
@@ -2460,22 +2516,16 @@ body {
 #header form input {
 	display: inline-block;
 	height: 2.5em;
-	border: 1px solid #e5e7eb;
-	border-radius: 6px;
-	padding: 0 0.75em;
-	font-size: 0.9em;
-	color: #1f2937;
-	background-color: #ffffff;
-	transition: border 0.3s ease;
-}
-
-#header form input:focus {
-	border-color: #3b82f6;
-	outline: none;
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
 }
 
 #header #search {
-	transition: all 0.4s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 	max-width: 0;
 	opacity: 0;
 	overflow: hidden;
@@ -2483,23 +2533,16 @@ body {
 	white-space: nowrap;
 }
 
+#header #search input {
+	color: #333333;
+	width: 12em;
+}
+
 #header #search.visible {
 	max-width: 12.5em;
 	opacity: 1;
 	padding: 0 0.5em 0 0;
 }
-
-#header #search input {
-	width: 12em;
-}
-
-/* Responsive Title Padding */
-@media screen and (max-width: 736px) {
-	#header h2 {
-		padding-left: 1em;
-	}
-}
-
 
 /* Wrapper */
 
