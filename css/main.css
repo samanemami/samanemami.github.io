@@ -3332,9 +3332,9 @@ iframe {
 
 .profile-links {
 	display: flex;
+	color: #005f8a;
+	text-decoration: underline;
 	gap: 15px;
 	justify-content: center;
-	/* Centers the profile links horizontally */
 	flex-wrap: wrap;
-	/* Allow the links to wrap on smaller screens */
 }
