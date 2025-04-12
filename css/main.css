@@ -2660,25 +2660,7 @@ body.is-menu-visible #wrapper {
 	padding: 0;
 }
 
-#mini-bio .button {
-	display: inline-block;
-	padding: 10px 20px;
-	font-size: 16px;
-	background-color: #4CAF50;
-	/* Green background */
-	color: white;
-	text-decoration: none;
-	border-radius: 5px;
-	text-align: center;
-	transition: background-color 0.3s, transform 0.3s;
-}
 
-#mini-bio .button:hover {
-	background-color: #45a049;
-	/* Slightly darker green */
-	transform: translateY(-2px);
-	/* Slight lift effect on hover */
-}
 
 @media screen and (max-width: 980px) {
 
