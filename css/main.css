@@ -2390,11 +2390,14 @@ body {
 /* Responsive Touch */
 @media screen and (max-width: 736px) {
 	#header {
-		flex-direction: column;
-		align-items: flex-start;
+		flex-direction: row;
+		align-items: stretch;
 		padding: 0.5em 1em;
 		height: auto;
 		line-height: normal;
+		width: 100%;
+		left: 0;
+		right: 0;
 	}
 
 	#header .links,
