@@ -3345,11 +3345,17 @@ iframe {
 /* Mini Menu Styles */
 #mini-menu {
 	margin-top: 20px;
-	background-color: #f0f0f0;
-	/* Light grey background */
+	background-color: #ffffff;
+	/* White background for the menu */
 	padding: 15px;
 	border-radius: 8px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border: 2px solid #4CAF50;
+	/* Green border for distinct color */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	/* Soft shadow around the box */
+	width: 250px;
+	/* Fix width for consistency */
+	margin-right: 20px;
 }
 
 #mini-menu .mini-links ul {
@@ -3357,12 +3363,13 @@ iframe {
 	padding: 0;
 	margin: 0;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	flex-direction: column;
+	/* Stack items vertically */
+	justify-content: flex-start;
 }
 
 #mini-menu .mini-links ul li {
-	margin: 5px 10px;
+	margin: 5px 0;
 }
 
 #mini-menu .mini-links ul li a {
@@ -3371,7 +3378,8 @@ iframe {
 	font-size: 14px;
 	color: #333;
 	text-decoration: none;
-	background-color: #ffffff;
+	background-color: #f9f9f9;
+	/* Light grey background for links */
 	border-radius: 5px;
 	transition: background-color 0.3s, transform 0.3s;
 }
