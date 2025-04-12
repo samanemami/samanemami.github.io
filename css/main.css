@@ -101,11 +101,6 @@ section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-	-webkit-text-size-adjust: none;
-}
-
 ol,
 ul {
 	list-style: none;
@@ -174,8 +169,11 @@ body {
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
 	-ms-overflow-style: scrollbar;
 }
+
+
 
 body.is-loading *,
 body.is-loading *:before,
@@ -212,7 +210,13 @@ textarea {
 		font-size: 12pt;
 	}
 
+	#wrapper {
+		padding: 3em;
+	}
+
 }
+
+
 
 @media screen and (max-width: 980px) {
 
@@ -249,9 +253,7 @@ textarea {
 
 a {
 	color: #005f8a;
-	/* Darker blue for normal state */
-	text-decoration: none;
-	transition: color 0.3s ease;
+	text-decoration: underline;
 }
 
 a:hover {
@@ -308,9 +310,7 @@ i {
 	font-style: italic;
 }
 
-p {
-	margin: 0 0 2em 0;
-}
+
 
 h1,
 h2,
@@ -330,6 +330,7 @@ p {
 	line-height: 1.75;
 	color: var(--text-color);
 	margin-bottom: 1.25em;
+	margin: 0 0 2em 0;
 }
 
 sub {
@@ -870,15 +871,9 @@ input[type="radio"]+label:before {
 	opacity: 1.0;
 }
 
-::-moz-placeholder {
-	color: #aaaaaa !important;
-	opacity: 1.0;
-}
 
-:-ms-input-placeholder {
-	color: #aaaaaa !important;
-	opacity: 1.0;
-}
+
+
 
 .formerize-placeholder {
 	color: #aaaaaa !important;
@@ -2601,13 +2596,7 @@ body.is-menu-visible #wrapper {
 	opacity: 0.15;
 }
 
-@media screen and (max-width: 1680px) {
 
-	#wrapper {
-		padding: 3em;
-	}
-
-}
 
 @media screen and (max-width: 980px) {
 
