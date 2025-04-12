@@ -3340,3 +3340,63 @@ iframe {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
+
+/* Mini Menu Styles */
+#mini-menu {
+	margin-top: 20px;
+	background-color: #f0f0f0;
+	/* Light grey background */
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mini-menu .mini-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#mini-menu .mini-links ul li {
+	margin: 5px 10px;
+}
+
+#mini-menu .mini-links ul li a {
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	background-color: #ffffff;
+	border-radius: 5px;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+#mini-menu .mini-links ul li a:hover {
+	background-color: #4CAF50;
+	color: white;
+	transform: translateY(-2px);
+	/* Lift effect */
+}
+
+/* Button Styling (for Learn More) */
+#mini-bio .button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: center;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+#mini-bio .button:hover {
+	background-color: #45a049;
+	transform: translateY(-2px);
+}
