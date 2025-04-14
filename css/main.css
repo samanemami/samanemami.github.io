@@ -3200,6 +3200,7 @@ iframe {
 
 
 .section-box-full {
+	gap: 20px;
 	display: flex;
 	background-color: #ffffff;
 	align-items: flex-start;
