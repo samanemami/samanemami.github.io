@@ -3182,9 +3182,9 @@ iframe {
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	/* Center the image horizontally */
-	align-items: center;
+	align-items: right;
 	/* Center the image vertically */
 	height: 250px;
 	/* Set a fixed height for the frame */
@@ -3199,9 +3199,12 @@ iframe {
 
 
 .section-box-full {
+	display: flex;
 	background-color: #ffffff;
+	align-items: flex-start;
+	justify-content: space-between;
 	/* Slight contrast with fdf6f0 */
-	border: 1px solid #e7dcd2;
+	border: 1px solid #e7dcd2c5;
 	/* Soft warm border */
 	padding: 2rem;
 	margin-bottom: 2rem;
@@ -3320,7 +3323,7 @@ iframe {
 	/* White background for the menu */
 	padding: 15px;
 	border-radius: 8px;
-	border: 2px solid #4CAF50;
+	border: 2px solid #7e887f;
 	/* Green border for distinct color */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	/* Soft shadow around the box */
