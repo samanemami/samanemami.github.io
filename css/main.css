@@ -3181,32 +3181,27 @@ iframe {
 	background-color: #f1f1f1;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	justify-content: right;
+	display: flex;
+	justify-content: center;
 	/* Center the image horizontally */
-	align-items: right;
+	align-items: center;
 	/* Center the image vertically */
 	height: 250px;
 	/* Set a fixed height for the frame */
-	flex-shrink: 0;
 }
 
 .image-frame img {
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 10px;
-	display: auto;
 }
 
 
 
 .section-box-full {
-	gap: 20px;
-	display: flex;
 	background-color: #ffffff;
-	align-items: flex-start;
-	justify-content: space-between;
 	/* Slight contrast with fdf6f0 */
-	border: 1px solid #e7dcd2c5;
+	border: 1px solid #e7dcd2;
 	/* Soft warm border */
 	padding: 2rem;
 	margin-bottom: 2rem;
@@ -3325,7 +3320,7 @@ iframe {
 	/* White background for the menu */
 	padding: 15px;
 	border-radius: 8px;
-	border: 2px solid #7e887f;
+	border: 2px solid #4CAF50;
 	/* Green border for distinct color */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	/* Soft shadow around the box */
