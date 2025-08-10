@@ -514,7 +514,7 @@ input[type="button"],
 .button {
 	display: inline-block;
 	background-color: var(--accent-color);
-	color: white;
+	color: rgba(214, 121, 121, 0.413);
 	font-family: var(--font-main);
 	font-size: 1rem;
 	font-weight: 600;
