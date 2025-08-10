@@ -490,9 +490,9 @@ input[type="button"],
 	--bg-color: #fdf6f0;
 	--text-color: #1f2937;
 
-	--accent-color: #5f5c5c;
+	--accent-color: #cac6c6;
 	/* Violet 600 — warmer than indigo */
-	--accent-color-hover: #5f5c5c;
+	--accent-color-hover: #ada3a3;
 	/* Violet 700 */
 
 	--success-color: #34d399;
@@ -514,7 +514,7 @@ input[type="button"],
 .button {
 	display: inline-block;
 	background-color: var(--accent-color);
-	color: rgba(214, 121, 121, 0.413);
+	color: rgba(3, 0, 0, 0.129);
 	font-family: var(--font-main);
 	font-size: 1rem;
 	font-weight: 600;
