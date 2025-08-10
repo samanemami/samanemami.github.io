@@ -127,7 +127,7 @@ header p {
 	letter-spacing: 0.25em;
 	line-height: 2.5;
 	margin: -1em 1em 0;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 table {
@@ -262,42 +262,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* 🌙 Dark Mode Styling */
-@media (prefers-color-scheme: dark) {
-
-	/* Buttons in Dark Mode */
-	.button {
-		background-color: var(--accent-color);
-		color: var(--text-light);
-		box-shadow: 0 4px 10px 5f5c5c(99, 102, 241, 0.4);
-		/* Slightly lighter shadow */
-	}
-
-	.button.outline {
-		color: var(--text-light);
-		border: 2px solid var(--text-light);
-	}
-
-	.button.success {
-		background-color: #5f5c5c;
-		/* Darker green */
-	}
-
-	.button.success:hover {
-		background-color: #5f5c5c;
-		/* Slightly lighter green */
-	}
-
-	.button.danger {
-		background-color: #dc2626;
-		/* Darker red */
-	}
-
-	.button.danger:hover {
-		background-color: #ef4444;
-		/* Slightly lighter red */
-	}
-}
 
 strong,
 b {
@@ -514,7 +478,7 @@ input[type="button"],
 .button {
 	display: inline-block;
 	background-color: var(--accent-color);
-	color: rgba(3, 0, 0, 0.129);
+	color: rgba(216, 213, 213, 0.841);
 	font-family: var(--font-main);
 	font-size: 1rem;
 	font-weight: 600;
@@ -3112,50 +3076,12 @@ body.is-share-visible #share-menu {
 }
 
 
-/* 🌙 Dark Mode Styling */
-@media (prefers-color-scheme: dark) {
-
-	/* Buttons in Dark Mode */
-	.button {
-		background-color: var(--accent-color);
-		color: var(--text-light);
-		box-shadow: 0 4px 10px rgba(99, 102, 241, 0.4);
-		/* Slightly lighter shadow */
-	}
-
-	.button.outline {
-		color: var(--text-light);
-		border: 2px solid var(--text-light);
-	}
-
-	.button.success {
-		background-color: #059669;
-		/* Darker green */
-	}
-
-	.button.success:hover {
-		background-color: #10b981;
-		/* Slightly lighter green */
-	}
-
-	.button.danger {
-		background-color: #dc2626;
-		/* Darker red */
-	}
-
-	.button.danger:hover {
-		background-color: #ef4444;
-		/* Slightly lighter red */
-	}
-}
-
 .card {
 	background: white;
 	border-radius: 1rem;
 	padding: 2rem;
 	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
-
 
 
 
