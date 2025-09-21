@@ -3314,3 +3314,18 @@ iframe {
 		flex-direction: column;
 	}
 }
+
+.cv-button-container .button {
+	background-color: #2ebaae;
+	/* Teal */
+	color: #fff;
+	padding: 1em 2em;
+	font-size: 1.1rem;
+	border-radius: 0.75rem;
+	transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cv-button-container .button:hover {
+	background-color: #26a69a;
+	transform: translateY(-2px);
+}
