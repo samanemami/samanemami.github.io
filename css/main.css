@@ -3352,3 +3352,22 @@ iframe {
 	font-weight: 700;
 	color: #333333;
 }
+
+
+.page-title {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.page-title h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 0.5rem;
+}
+
+.page-title .subtitle {
+	font-size: 1rem;
+	color: #666;
+	font-style: italic;
+}
