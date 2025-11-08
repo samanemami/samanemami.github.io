@@ -3314,3 +3314,41 @@ iframe {
 		flex-direction: column;
 	}
 }
+
+
+.notice-box {
+	background-color: #ffffff;
+	/* match your .section-box background */
+	border: 1px solid #e7dcd2;
+	/* soft warm border */
+	border-left: 5px solid #5f5c5c;
+	/* same tone as your buttons for visual anchor */
+	border-radius: 1rem;
+	/* consistent rounded corners */
+	padding: 1.5rem 2rem;
+	margin-bottom: 2rem;
+	box-shadow:
+		0 2px 4px rgba(0, 0, 0, 0.03),
+		0 6px 20px rgba(0, 0, 0, 0.05);
+	/* consistent soft shadow */
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 1rem;
+	color: var(--text-color);
+	line-height: 1.6;
+	animation: fadeInUp 0.6s ease both;
+}
+
+.notice-box i {
+	color: #5f5c5c;
+	/* icon color aligns with accent */
+	font-size: 1.4rem;
+	margin-right: 0.5rem;
+}
+
+.notice-box strong {
+	font-weight: 700;
+	color: #333333;
+}
