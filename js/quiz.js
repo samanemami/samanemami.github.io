@@ -44,15 +44,21 @@ function loadQuestion() {
 
 function checkAnswer(correct) {
     const feedback = document.getElementById("feedback");
-    if (correct) {
-        feedback.textContent = questions[step].fact;
-        feedback.style.color = "#5f5c5c";
-        setTimeout(nextQuestion, 1300);
-    } else {
-        feedback.textContent = "Try again!";
-        feedback.style.color = "#c0392b";
-    }
+    feedback.style.opacity = "0"; // hide before showing new text
+    setTimeout(() => {
+        if (correct) {
+            feedback.textContent = questions[step].fact;
+            feedback.style.color = "#5f5c5c";
+            feedback.style.opacity = "1";
+            setTimeout(nextQuestion, 1300);
+        } else {
+            feedback.textContent = "Try again!";
+            feedback.style.color = "#c0392b";
+            feedback.style.opacity = "1";
+        }
+    }, 150);
 }
+
 
 function nextQuestion() {
     step++;
