@@ -166,20 +166,26 @@
 
                 function nextQuestion() {
                     step++;
-                    const quiz = document.getElementById('quiz-content');
                     const q = questions[step - 1];
+                    const quiz = document.getElementById('quiz-content');
+
                     if (q) {
                         quiz.innerHTML = `
-      <p id="question">${q.q}</p>
-      <div class="options-grid">
-        ${q.options.map((o, i) => `<button onclick="checkAnswer('${i === q.correct ? 'correct' : 'wrong'}')">${o}</button>`).join('')}
-      </div>
-      <p id="feedback"></p>
-    `;
+        <p id="question">${q.q}</p>
+        <div class="options-grid">
+          ${q.options
+                                .map(
+                                    (o, i) =>
+                                        `<button onclick="checkAnswer('${i === q.correct ? 'correct' : 'wrong'}')">${o}</button>`
+                                )
+                                .join('')}
+        </div>
+        <p id="feedback"></p>
+      `;
                     } else {
                         quiz.innerHTML = `
-      <p>🎉 Great! You know me well now.<br>
-      <a href='https://samanemami.github.io/about/'>Explore my CV →</a></p>`;
+        <p>🎉 Great! You know me well now.<br>
+        <a href='https://samanemami.github.io/about/'>Explore my CV →</a></p>`;
                     }
                 }
             </script>
@@ -197,12 +203,17 @@
                     margin: auto;
                 }
 
-                /* ---- HEADER ---- */
+                /* ---- HEADER (always visible) ---- */
                 .quiz-header {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     margin-bottom: 0.5rem;
+                    position: sticky;
+                    top: 0;
+                    background-color: #fff;
+                    z-index: 10;
+                    padding-bottom: 0.3rem;
                 }
 
                 .quiz-header h3 {
@@ -227,7 +238,7 @@
                 /* ---- OPTIONS (3-column grid) ---- */
                 .options-grid {
                     display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                    grid-template-columns: repeat(3, 1fr);
                     gap: 0.5rem;
                     justify-items: center;
                     margin-bottom: 0.5rem;
@@ -272,6 +283,7 @@
                     }
                 }
             </style>
+
 
 
 
