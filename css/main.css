@@ -3371,3 +3371,58 @@ iframe {
 	color: #666;
 	font-style: italic;
 }
+
+
+.contact-box {
+	background-color: #ffffff;
+	border: 1px solid #e7dcd2;
+	border-left: 6px solid #5f5c5c;
+	border-radius: 1rem;
+	padding: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	align-items: flex-start;
+	gap: 1.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03),
+		0 6px 20px rgba(0, 0, 0, 0.05);
+	animation: fadeInUp 0.6s ease both;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #333;
+}
+
+.contact-box i {
+	color: #5f5c5c;
+	font-size: 1.8rem;
+	margin-top: 0.3rem;
+	flex-shrink: 0;
+}
+
+.contact-text h3 {
+	font-size: 1.3rem;
+	margin-bottom: 0.6rem;
+	color: #2c2c2c;
+	font-weight: 700;
+}
+
+.contact-text p {
+	margin-bottom: 1rem;
+	line-height: 1.6;
+	color: #555;
+}
+
+.contact-button {
+	display: inline-block;
+	padding: 0.6rem 1.2rem;
+	background-color: #5f5c5c;
+	color: #fff;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	font-weight: 600;
+	transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+	background-color: #444;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
