@@ -4,7 +4,7 @@ const questions = [
         q: "1️⃣ What university am I affiliated with?",
         options: ["Complutense", "Autónoma de Madrid (UAM)", "Barcelona"],
         correct: 1,
-        fact: "Correct! I'm part of the GAA research group at UAM."
+        fact: "Correct! I’m part of the GAA research group at UAM and also teach there."
     },
     {
         q: "2️⃣ How many startups did I found?",
@@ -47,7 +47,7 @@ function checkAnswer(correct) {
     if (correct) {
         feedback.textContent = questions[step].fact;
         feedback.style.color = "#036c13ff";
-        setTimeout(nextQuestion, 1300);
+        setTimeout(nextQuestion, 1700);
     } else {
         feedback.textContent = "Try again!";
         feedback.style.color = "#c0392b";
