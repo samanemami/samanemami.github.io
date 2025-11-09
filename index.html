@@ -117,6 +117,16 @@
                     <h3><i class="fa-solid fa-user-graduate"></i> Know Me Better</h3>
                     <span class="quiz-subtitle">Mini-quiz about me 🎯</span>
                 </div>
+
+                <div id="quiz-content">
+                    <p id="question">1️⃣ What university am I affiliated with?</p>
+                    <div class="options-grid">
+                        <button onclick="checkAnswer('wrong')">Complutense</button>
+                        <button onclick="checkAnswer('correct')">Autónoma de Madrid (UAM)</button>
+                        <button onclick="checkAnswer('wrong')">Barcelona</button>
+                    </div>
+                    <p id="feedback"></p>
+                </div>
             </div>
 
             <script>
@@ -129,13 +139,13 @@
                         fact: "Correct! I’m part of the GAA research group at UAM."
                     },
                     {
-                        q: "4️⃣ How many companies did I found?",
+                        q: "2️⃣ How many companies did I found?",
                         options: ["None", "One", "Two"],
                         correct: 1,
                         fact: "That's right! I founded one company — as part of my entrepreneurial work alongside academia."
                     },
                     {
-                        q: "5️⃣ What kind of algorithms have I developed?",
+                        q: "3️⃣ What kind of algorithms have I developed?",
                         options: ["Machine Learning algorithms", "Cryptography algorithms", "Biological models"],
                         correct: 0,
                         fact: "Correct! I develop advanced Machine Learning algorithms to improve accuracy and robustness."
@@ -262,6 +272,7 @@
                     }
                 }
             </style>
+
 
 
             <article class="post">
