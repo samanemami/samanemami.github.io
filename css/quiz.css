@@ -10,6 +10,12 @@
   margin: auto;
 }
 
+#quiz-content {
+    display: none;
+    transition: all 0.3s ease;
+    min-height: 180px; /* prevents jumping when feedback text changes */
+}
+
 /* ---- HEADER ---- */
 .quiz-header {
   display: flex;
@@ -79,18 +85,10 @@
     transform: translateY(-2px);
 }
 
-#quiz-content {
-    display: none;
-    transition: all 0.3s ease;
-    min-height: 180px; /* prevents jumping when feedback text changes */
-}
-
 /* ---- FEEDBACK ---- */
 #feedback {
     margin-top: 0.6rem;
     font-weight: 600;
-    min-height: 2em; /* reserve space for text even when empty */
-    transition: opacity 0.3s ease;
 }
 
 /* ---- RESPONSIVE ---- */
