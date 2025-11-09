@@ -113,24 +113,21 @@
             </div> -->
 
             <div class="notice-box" id="quiz-box">
-                <div class="quiz-header">
+                <div class="quiz-header" id="quiz-header">
                     <h3><i class="fa-solid fa-user-graduate"></i> Know Me Better</h3>
                     <span class="quiz-subtitle">Mini-quiz about me 🎯</span>
+                    <button id="start-btn" onclick="startQuiz()">Start Quiz</button>
                 </div>
 
-                <div id="quiz-content">
-                    <p id="question">1️⃣ What university am I affiliated with?</p>
-                    <div class="options-grid">
-                        <button onclick="checkAnswer('wrong')">Complutense</button>
-                        <button onclick="checkAnswer('correct')">Autónoma de Madrid (UAM)</button>
-                        <button onclick="checkAnswer('wrong')">Barcelona</button>
-                    </div>
+                <div id="quiz-content" style="display:none;">
+                    <p id="question"></p>
+                    <div class="options-grid" id="options"></div>
                     <p id="feedback"></p>
                 </div>
             </div>
 
             <script>
-                let step = 1;
+                let step = 0;
                 const questions = [
                     {
                         q: "1️⃣ What university am I affiliated with?",
@@ -152,10 +149,32 @@
                     }
                 ];
 
-                function checkAnswer(status) {
-                    const feedback = document.getElementById('feedback');
-                    if (status === 'correct') {
-                        feedback.textContent = questions[step - 1].fact;
+                function startQuiz() {
+                    document.getElementById("quiz-header").style.display = "none";
+                    document.getElementById("quiz-content").style.display = "block";
+                    loadQuestion();
+                }
+
+                function loadQuestion() {
+                    const q = questions[step];
+                    const questionEl = document.getElementById("question");
+                    const optionsEl = document.getElementById("options");
+                    const feedback = document.getElementById("feedback");
+
+                    questionEl.textContent = q.q;
+                    optionsEl.innerHTML = q.options
+                        .map(
+                            (o, i) =>
+                                `<button onclick="checkAnswer(${i === q.correct})">${o}</button>`
+                        )
+                        .join("");
+                    feedback.textContent = "";
+                }
+
+                function checkAnswer(correct) {
+                    const feedback = document.getElementById("feedback");
+                    if (correct) {
+                        feedback.textContent = questions[step].fact;
                         feedback.style.color = "#5f5c5c";
                         setTimeout(nextQuestion, 1300);
                     } else {
@@ -166,24 +185,10 @@
 
                 function nextQuestion() {
                     step++;
-                    const q = questions[step - 1];
-                    const quiz = document.getElementById('quiz-content');
-
-                    if (q) {
-                        quiz.innerHTML = `
-        <p id="question">${q.q}</p>
-        <div class="options-grid">
-          ${q.options
-                                .map(
-                                    (o, i) =>
-                                        `<button onclick="checkAnswer('${i === q.correct ? 'correct' : 'wrong'}')">${o}</button>`
-                                )
-                                .join('')}
-        </div>
-        <p id="feedback"></p>
-      `;
+                    if (step < questions.length) {
+                        loadQuestion();
                     } else {
-                        quiz.innerHTML = `
+                        document.getElementById("quiz-content").innerHTML = `
         <p>🎉 Great! You know me well now.<br>
         <a href='https://samanemami.github.io/about/'>Explore my CV →</a></p>`;
                     }
@@ -194,7 +199,7 @@
                 /* ---- QUIZ CONTAINER ---- */
                 #quiz-box {
                     text-align: center;
-                    border-left: 5px solid #5f5c5c;
+                    border-top: 5px solid #5f5c5c;
                     border-radius: 1rem;
                     padding: 1.5rem;
                     background-color: #fff;
@@ -203,17 +208,12 @@
                     margin: auto;
                 }
 
-                /* ---- HEADER (always visible) ---- */
+                /* ---- HEADER (only before quiz starts) ---- */
                 .quiz-header {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    margin-bottom: 0.5rem;
-                    position: sticky;
-                    top: 0;
-                    background-color: #fff;
-                    z-index: 10;
-                    padding-bottom: 0.3rem;
+                    margin-bottom: 1rem;
                 }
 
                 .quiz-header h3 {
@@ -226,6 +226,22 @@
                     font-size: 0.85em;
                     color: #777;
                     margin-top: 0.2rem;
+                }
+
+                #start-btn {
+                    margin-top: 1rem;
+                    border: none;
+                    background-color: #5f5c5c;
+                    color: #fff;
+                    border-radius: 0.5rem;
+                    padding: 0.5rem 1.2rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: background-color 0.25s ease;
+                }
+
+                #start-btn:hover {
+                    background-color: #444;
                 }
 
                 /* ---- QUESTION ---- */
@@ -283,6 +299,7 @@
                     }
                 }
             </style>
+
 
 
 
