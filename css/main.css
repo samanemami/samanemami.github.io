@@ -2295,218 +2295,216 @@ body {
 	padding-top: 3.5em;
 }
 
+/* ========================= */
+/* Elegant Header Redesign   */
+/* ========================= */
+
 #header {
-	display: flex;
-	-moz-justify-content: space-between;
-	-webkit-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	background-color: #ffffff;
-	border-bottom: solid 1px rgba(160, 160, 160, 0.3);
-	height: 3.5em;
-	left: 0;
-	line-height: 3.5em;
 	position: fixed;
 	top: 0;
+	left: 0;
 	width: 100%;
 	z-index: 10000;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: #ffffff;
+	border: 1px solid #e7dcd2;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid #e7dcd2;
+	border-radius: 0 0 1rem 1rem;
+
+	box-shadow:
+		0 2px 4px rgba(0, 0, 0, 0.03),
+		0 6px 20px rgba(0, 0, 0, 0.05);
+
+	transition: all 0.3s ease;
+	height: 3.5em;
+	padding: 0 2rem;
+
+	font-family: "Raleway", Helvetica, sans-serif;
+	backdrop-filter: blur(6px);
 }
 
-#header a {
-	color: inherit;
-	text-decoration: none;
+/* Hover: subtle lift for depth */
+#header:hover {
+	transform: translateY(-1px);
+	box-shadow:
+		0 4px 8px rgba(0, 0, 0, 0.04),
+		0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
-#header ul {
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
-}
-
-#header ul li {
-	display: inline-block;
-	padding-left: 0;
-}
-
+/* Logo or Site Title */
 #header h1 {
-	height: inherit;
-	line-height: inherit;
-	padding: 0 0 0 1.5em;
+	font-size: 0.9em;
+	font-weight: 700;
+	color: #333;
+	letter-spacing: 0.1em;
 	white-space: nowrap;
-	min-width: 12.4em;
+	margin: 0;
 }
 
 #header h1 a {
-	font-size: 0.7em;
+	text-decoration: none;
+	color: #333;
+	transition: color 0.3s ease;
 }
 
+#header h1 a:hover {
+	color: #5f5c5c;
+}
+
+/* Subtitle (optional small text beside logo) */
 #header h2 {
-	font-size: inherit;
-	height: inherit;
-	line-height: inherit;
-	padding: 0 0 0 1.5em;
-	white-space: nowrap;
-}
-
-#header h2 a {
 	font-size: 0.7em;
+	font-weight: 400;
+	color: #666;
+	margin-left: 0.5rem;
 }
 
-@media screen and (max-width: 736px) {
-	#header h2 {
-		padding: 0 0 0 1em;
-	}
-}
+/* ------------------------- */
+/* Navigation Links Section  */
+/* ------------------------- */
 
 #header .links {
-	-moz-flex: 1;
-	-webkit-flex: 1;
-
 	flex: 1;
-	border-left: solid 1px rgba(160, 160, 160, 0.3);
-	height: inherit;
-	line-height: inherit;
-	margin-left: 1.5em;
-	overflow: hidden;
-	padding-left: 1.5em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-left: 2rem;
 }
 
-#header .links a {
-	/* Theoretically for IE 8 & 9 (more valid) */
-	/* ...but not required as filter works too */
-	/* should come BEFORE filter */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
-
-	/* This works in IE 8 & 9 too */
-	/* ... but also 5, 6, 7 */
-	filter: alpha(opacity=65);
-
-	/* Modern Browsers */
-	opacity: 0.65;
+#header .links ul {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 #header .links ul li {
-	border-left: solid 1px rgba(160, 160, 160, 0.3);
-	line-height: 1;
-	margin-left: 1em;
-	padding-left: 1em;
-}
-
-#header .links ul li:first-child {
-	border-left: 0;
-	margin-left: 0;
-	padding-left: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #header .links ul li a {
-	border-bottom: 0;
-	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.7em;
-	font-weight: 400;
-	letter-spacing: 0.25em;
-	/* text-transform: uppercase; */
+	font-size: 0.8em;
+	font-weight: 600;
+	color: #555;
+	text-decoration: none;
+	padding: 0.4rem 0.8rem;
+	border-radius: 0.5rem;
+	transition: all 0.25s ease;
 }
 
+/* Hover: uses warm accent tone */
+#header .links ul li a:hover {
+	background-color: #5f5c5c;
+	color: #ffffff;
+	transform: translateY(-2px);
+}
+
+/* Active page style */
+#header .links ul li a.active {
+	background-color: #e7dcd2;
+	color: #333;
+}
+
+/* ------------------------- */
+/* Right-side Utility Section */
+/* (e.g., icons, search, etc.) */
+/* ------------------------- */
+
 #header .main {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 1rem;
 	height: inherit;
 	line-height: inherit;
-	text-align: right;
 }
 
 #header .main ul {
-	height: inherit;
-	line-height: inherit;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 #header .main ul li {
-	border-left: solid 1px rgba(160, 160, 160, 0.3);
-	height: inherit;
-	line-height: inherit;
-	white-space: nowrap;
-}
-
-#header .main ul li>* {
-	display: block;
-	float: left;
-}
-
-#header .main ul li>a {
-	text-decoration: none;
-	border-bottom: 0;
-	color: #aaaaaa;
-	overflow: hidden;
-	position: relative;
-	text-indent: 4em;
-	width: 4em;
-	color: #333333;
-	/* Theoretically for IE 8 & 9 (more valid) */
-	/* ...but not required as filter works too */
-	/* should come BEFORE filter */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
-
-	/* This works in IE 8 & 9 too */
-	/* ... but also 5, 6, 7 */
-	filter: alpha(opacity=35);
-
-	/* Modern Browsers */
-	opacity: 0.35;
-}
-
-#header .main ul li>a:before {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none !important;
-}
-
-#header .main ul li>a:before {
-	display: block;
-	height: inherit;
-	left: 0;
-	line-height: inherit;
-	position: absolute;
-	text-align: center;
-	text-indent: 0;
-	top: 0;
-	width: inherit;
-}
-
-#header form {
 	margin: 0;
-}
-
-#header form input {
-	display: inline-block;
-	height: 2.5em;
-	position: relative;
-	top: -2px;
-	vertical-align: middle;
-}
-
-#header #search {
-	-moz-transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	max-width: 0;
-	opacity: 0;
-	overflow: hidden;
 	padding: 0;
-	white-space: nowrap;
 }
 
-#header #search input {
-	color: #333333;
-	width: 12em;
+#header .main ul li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	color: #5f5c5c;
+	font-size: 1.1rem;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
 
-#header #search.visible {
-	max-width: 12.5em;
-	opacity: 1;
-	padding: 0 0.5em 0 0;
+#header .main ul li a:hover {
+	background-color: #5f5c5c;
+	color: #fff;
+	transform: translateY(-2px);
 }
+
+/* ------------------------- */
+/* Responsive Behavior       */
+/* ------------------------- */
+
+@media (max-width: 980px) {
+	#header {
+		flex-direction: column;
+		height: auto;
+		padding: 1rem 1.5rem;
+		align-items: flex-start;
+	}
+
+	#header .links {
+		width: 100%;
+		justify-content: center;
+		margin: 0.5rem 0 0;
+	}
+
+	#header .links ul {
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: center;
+	}
+
+	#header .main {
+		width: 100%;
+		justify-content: center;
+		margin-top: 0.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	#header {
+		padding: 0.75rem 1rem;
+		border-radius: 0;
+	}
+
+	#header .links ul li a {
+		font-size: 0.75em;
+		padding: 0.3rem 0.6rem;
+	}
+}
+
 
 /* Wrapper */
 
