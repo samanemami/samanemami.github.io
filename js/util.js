@@ -140,12 +140,6 @@
 
         if (!href || href == "#" || href == "" || href == "#" + id) return;
 
-        // ✅ Block dangerous javascript: or data: URLs
-        if (/^(javascript|data):/i.test(href)) {
-          console.warn("Blocked unsafe URL:", href);
-          return;
-        }
-
         // Cancel original event.
         event.preventDefault();
         event.stopPropagation();
@@ -153,9 +147,10 @@
         // Hide panel.
         $this._hide();
 
-        // Redirect safely.
-        if (target === "_blank")
-          window.open(href, "_blank", "noopener,noreferrer");
+        // Redirect to href.
+        //window.setTimeout(function() {
+
+        if (target == "_blank") window.open(href);
         else window.location.href = href;
 
         //}, config.delay + 10);
