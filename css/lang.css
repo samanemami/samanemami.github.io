@@ -1,34 +1,54 @@
-/* Language Switch – same look as menu items */
-#menu .lang-switch {
-    border-top: dotted 1px rgba(160, 160, 160, 0.3);
-    margin: 1.5em 0 0 0;
-    padding: 1.5em 0 0 0;
-}
-
-/* Hide sub-items by default */
-#menu .lang-switch .lang-sub {
-    display: none;
+/* Language menu container */
+.lang-menu {
+    position: relative;
     list-style: none;
-    padding-left: 1em;
-    margin-top: 1em;
 }
 
-/* When parent <li> is active, show sub menu */
-#menu .lang-switch.active .lang-sub {
+/* Main link */
+.lang-menu>a {
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Dropdown menu hidden by default */
+.lang-dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 140px;
+    margin-top: 5px;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+}
+
+/* Show on hover */
+.lang-menu:hover .lang-dropdown {
     display: block;
 }
 
-/* Submenu items resemble the regular menu */
-#menu .lang-sub li {
-    border: 0;
-    margin: 1em 0;
-    padding: 0;
+/* Dropdown items */
+.lang-dropdown li {
+    list-style: none;
+    border-bottom: 1px solid #eee;
 }
 
-#menu .lang-sub li a h3 {
-    font-size: 0.7em;
+.lang-dropdown li:last-child {
+    border-bottom: none;
 }
 
-#menu .lang-sub li a:hover h3 {
-    color: #2ebaae;
+.lang-dropdown a {
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Hover effect */
+.lang-dropdown a:hover {
+    background: #f5f5f5;
 }
