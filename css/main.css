@@ -2534,9 +2534,13 @@ body.is-menu-visible #wrapper {
 
 
 @media screen and (max-width: 980px) {
+	#header {
+		position: static !important;
+	}
 
 	#wrapper {
 		display: block;
+		padding-top: 0 !important;
 	}
 
 }
