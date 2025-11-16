@@ -1,22 +1,23 @@
 /* Language menu container */
-.lang-menu {
+.lang-switch {
     position: relative;
     list-style: none;
 }
 
 /* Main link */
-.lang-menu>a {
+.lang-switch>a {
     display: inline-block;
     padding: 8px 12px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-/* Dropdown menu hidden by default */
-.lang-dropdown {
+/* Dropdown hidden by default */
+.lang-switch .lang-dropdown {
     display: none;
     position: absolute;
     background: white;
-    min-width: 140px;
+    min-width: 120px;
     margin-top: 5px;
     padding: 0;
     border: 1px solid #ddd;
@@ -25,8 +26,8 @@
     z-index: 999;
 }
 
-/* Show on hover */
-.lang-menu:hover .lang-dropdown {
+/* Show dropdown when the JS adds .active */
+.lang-switch.active .lang-dropdown {
     display: block;
 }
 
