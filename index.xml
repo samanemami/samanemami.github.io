@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
   <channel>
-    <title>seyedsaman Emami</title>
+
+    <title>Seyedsaman Emami</title>
+
     <link>https://samanemami.github.io/</link>
-    <description>Recent content on seyedsaman Emami</description>
-    <generator>saman -- samanemami.github.io</generator>
+
+    <!-- What this feed represents -->
+    <description>Latest updates, publications, research activity, and academic content from Dr. S. Saman Emami.</description>
+
+    <atom:link href="https://samanemami.github.io/index.xml"
+               rel="self"
+               type="application/rss+xml" />
+
     <language>en-us</language>
-    <lastBuildDate>Tue, 9 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://samanemami.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo / samanemami.github.io</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+
+    <managingEditor>saman@your-email.com (Dr. S. Saman Emami)</managingEditor>
+    <webMaster>saman@your-email.com (Dr. S. Saman Emami)</webMaster>
+
+    <copyright>© 2025 seyedsaman Emami. All rights reserved.</copyright>
+
+
+
   </channel>
 </rss>
