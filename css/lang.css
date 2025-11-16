@@ -1,0 +1,34 @@
+/* Language Switch – same look as menu items */
+#menu .lang-switch {
+    border-top: dotted 1px rgba(160, 160, 160, 0.3);
+    margin: 1.5em 0 0 0;
+    padding: 1.5em 0 0 0;
+}
+
+/* Hide sub-items by default */
+#menu .lang-switch .lang-sub {
+    display: none;
+    list-style: none;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+
+/* When parent <li> is active, show sub menu */
+#menu .lang-switch.active .lang-sub {
+    display: block;
+}
+
+/* Submenu items resemble the regular menu */
+#menu .lang-sub li {
+    border: 0;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#menu .lang-sub li a h3 {
+    font-size: 0.7em;
+}
+
+#menu .lang-sub li a:hover h3 {
+    color: #2ebaae;
+}
