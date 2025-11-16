@@ -4,41 +4,82 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://samanemami.github.io/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://samanemami.github.io/about/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://samanemami.github.io/paper/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://samanemami.github.io/Algorithms/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://samanemami.github.io/contact/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://samanemami.github.io/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/es/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/about/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/es/about/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/paper/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/es/paper/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://samanemami.github.io/Algorithms/page/2/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/contact/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://samanemami.github.io/es/contact/index.html</loc>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://samanemami.github.io/Algorithms/page/3/</loc>
-  <lastmod>2025-11-09T09:05:30+00:00</lastmod>
+  <lastmod>2025-11-16T18:43:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
