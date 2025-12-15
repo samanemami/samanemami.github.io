@@ -887,7 +887,8 @@ ul.actions li:last-child {
 }
 
 ul.actions.pagination .button {
-  background: rgb(4, 0, 0);
+  background: rgb(236, 236, 236);
+  color: #333333; 
   line-height: 2.5em;
   height: auto;
   white-space: normal;
@@ -1556,10 +1557,6 @@ dl dd {
 
   #footer,
   #footer {
-    display: none !important;
-  }
-
-  #quiz-box {
     display: none !important;
   }
 
