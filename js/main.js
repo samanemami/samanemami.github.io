@@ -160,4 +160,17 @@
       $("body").removeClass("menu-open");
     }
   });
+
+  // assets/js/header-scroll.js
+  document.addEventListener("DOMContentLoaded", () => {
+    const header = document.getElementById("header");
+    if (!header) return;
+
+    const toggleHeader = () => {
+      header.classList.toggle("scrolled", window.scrollY > 40);
+    };
+
+    toggleHeader(); // run once on load
+    window.addEventListener("scroll", toggleHeader, { passive: true });
+  });
 })(jQuery);
