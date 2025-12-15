@@ -4,79 +4,76 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+(function ($) {
+  skel.breakpoints({
+    xlarge: "(max-width: 1680px)",
+    large: "(max-width: 1280px)",
+    medium: "(max-width: 980px)",
+    small: "(max-width: 736px)",
+    xsmall: "(max-width: 480px)",
+  });
 
-	skel.breakpoints({
-		xlarge:	'(max-width: 1680px)',
-		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
-		small:	'(max-width: 736px)',
-		xsmall:	'(max-width: 480px)'
-	});
+  $(function () {
+    var $window = $(window),
+      $body = $("body"),
+      $menu = $("#menu"),
+      $shareMenu = $("#share-menu"),
+      $sidebar = $("#sidebar"),
+      $main = $("#main");
 
-	$(function() {
+    // TODO: Fix this, or implement lazy load.
+    // Disable animations/transitions until the page has loaded.
+    //	$body.addClass('is-loading');
 
-		var	$window = $(window),
-			$body = $('body'),
-			$menu = $('#menu'),
-			$shareMenu = $('#share-menu'),
-			$sidebar = $('#sidebar'),
-			$main = $('#main');
+    //	$window.on('load', function() {
+    //		window.setTimeout(function() {
+    //			$body.removeClass('is-loading');
+    //		}, 100);
+    //	});
 
-		// TODO: Fix this, or implement lazy load.
-		// Disable animations/transitions until the page has loaded.
-		//	$body.addClass('is-loading');
+    // Fix: Placeholder polyfill.
+    $("form").placeholder();
 
-		//	$window.on('load', function() {
-		//		window.setTimeout(function() {
-		//			$body.removeClass('is-loading');
-		//		}, 100);
-		//	});
+    // Prioritize "important" elements on medium.
+    skel.on("+medium -medium", function () {
+      $.prioritize(
+        ".important\\28 medium\\29",
+        skel.breakpoint("medium").active
+      );
+    });
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+    // IE<=9: Reverse order of main and sidebar.
+    if (skel.vars.IEVersion <= 9) $main.insertAfter($sidebar);
 
-		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
+    $menu.appendTo($body);
+    $shareMenu.appendTo($body);
 
-		// IE<=9: Reverse order of main and sidebar.
-			if (skel.vars.IEVersion <= 9)
-				$main.insertAfter($sidebar);
+    $menu.panel({
+      delay: 500,
+      hideOnClick: true,
+      hideOnEscape: true,
+      hideOnSwipe: true,
+      resetScroll: true,
+      resetForms: true,
+      side: "right",
+      target: $body,
+      visibleClass: "is-menu-visible",
+    });
 
-		$menu.appendTo($body);
-		$shareMenu.appendTo($body);
+    $shareMenu.panel({
+      delay: 500,
+      hideOnClick: true,
+      hideOnEscape: true,
+      hideOnSwipe: true,
+      resetScroll: true,
+      resetForms: true,
+      side: "right",
+      target: $body,
+      visibleClass: "is-share-visible",
+    });
 
-		$menu.panel({
-			delay: 500,
-			hideOnClick: true,
-			hideOnEscape: true,
-			hideOnSwipe: true,
-			resetScroll: true,
-			resetForms: true,
-			side: 'right',
-			target: $body,
-			visibleClass: 'is-menu-visible'
-		});
-
-		$shareMenu.panel({
-			delay: 500,
-			hideOnClick: true,
-			hideOnEscape: true,
-			hideOnSwipe: true,
-			resetScroll: true,
-			resetForms: true,
-			side: 'right',
-			target: $body,
-			visibleClass: 'is-share-visible'
-		});
-
-		// Menu.
-			/*$menu
+    // Menu.
+    /*$menu
 				.appendTo($body)
 				.panel({
 					delay: 500,
@@ -89,56 +86,54 @@
 					visibleClass: 'is-menu-visible'
 				});*/
 
-		// Search (header).
-			var $search = $('#search'),
-				$search_input = $search.find('input');
+    // Search (header).
+    var $search = $("#search"),
+      $search_input = $search.find("input");
 
-			$body
-				.on('click', '[href="#search"]', function(event) {
+    $body.on("click", '[href="#search"]', function (event) {
+      event.preventDefault();
 
-					event.preventDefault();
+      // Not visible?
+      if (!$search.hasClass("visible")) {
+        // Reset form.
+        $search[0].reset();
 
-					// Not visible?
-						if (!$search.hasClass('visible')) {
+        // Show.
+        $search.addClass("visible");
 
-							// Reset form.
-								$search[0].reset();
+        // Focus input.
+        $search_input.focus();
+      }
+    });
 
-							// Show.
-								$search.addClass('visible');
+    $search_input
+      .on("keydown", function (event) {
+        if (event.keyCode == 27) $search_input.blur();
+      })
+      .on("blur", function () {
+        window.setTimeout(function () {
+          $search.removeClass("visible");
+        }, 100);
+      });
 
-							// Focus input.
-								$search_input.focus();
+    // Intro.
+    var $intro = $("#intro");
 
-						}
+    // Move to main on <=large, back to sidebar on >large.
+    skel
+      .on("+medium", function () {
+        $intro.prependTo($main);
+      })
+      .on("-medium", function () {
+        $intro.prependTo($sidebar);
+      });
+  });
 
-				});
+  $("#menu-toggle").on("click", function () {
+    $("#header").toggleClass("menu-open");
+  });
 
-			$search_input
-				.on('keydown', function(event) {
-
-					if (event.keyCode == 27)
-						$search_input.blur();
-
-				})
-				.on('blur', function() {
-					window.setTimeout(function() {
-						$search.removeClass('visible');
-					}, 100);
-				});
-
-		// Intro.
-			var $intro = $('#intro');
-
-			// Move to main on <=large, back to sidebar on >large.
-				skel
-					.on('+medium', function() {
-						$intro.prependTo($main);
-					})
-					.on('-medium', function() {
-						$intro.prependTo($sidebar);
-					});
-
-	});
-
+  $("#header .links a").on("click", function () {
+    $("#header").removeClass("menu-open");
+  });
 })(jQuery);
