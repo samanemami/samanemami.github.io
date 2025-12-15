@@ -2941,3 +2941,34 @@ body.is-share-visible #share-menu {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Home page styles */
+body.home {
+  height: 100vh;
+  overflow: hidden;
+  /* prevent scrolling */
+}
+
+body.home #wrapper {
+  height: calc(100vh - 5.2rem);
+  /* header height */
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+body.home #main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* vertical centering */
+  justify-content: center;
+  /* horizontal centering */
+}
+
+body.home .section-box-full {
+  max-width: 900px;
+  margin: 0 auto;
+  max-height: calc(100vh - 6rem);
+  overflow: hidden;
+}
