@@ -1558,6 +1558,10 @@ dl dd {
   #footer {
     display: none !important;
   }
+
+  #quiz-box {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
