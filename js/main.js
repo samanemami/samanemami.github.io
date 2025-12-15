@@ -131,9 +131,11 @@
 
   $("#menu-toggle").on("click", function () {
     $("#header").toggleClass("menu-open");
+    $("body").toggleClass("menu-open");
   });
 
   $("#header .links a").on("click", function () {
     $("#header").removeClass("menu-open");
+    $("body").removeClass("menu-open");
   });
 })(jQuery);
