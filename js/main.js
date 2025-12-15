@@ -129,13 +129,35 @@
       });
   });
 
-  $("#menu-toggle").on("click", function () {
+  // Toggle menu open class on header
+  $("#menu-toggle").on("click", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
     $("#header").toggleClass("menu-open");
     $("body").toggleClass("menu-open");
   });
 
-  $("#header .links a").on("click", function () {
+  // use delegated handler (works even if links are loaded later)
+  $(document).on("click", "#header .links a", function () {
     $("#header").removeClass("menu-open");
     $("body").removeClass("menu-open");
+  });
+
+  // close when clicking outside the panel
+  $(document).on("click", function (e) {
+    if ($("body").hasClass("menu-open")) {
+      if ($(e.target).closest("#header .links, #menu-toggle").length === 0) {
+        $("#header").removeClass("menu-open");
+        $("body").removeClass("menu-open");
+      }
+    }
+  });
+
+  // close on ESC
+  $(document).on("keydown", function (e) {
+    if (e.key === "Escape") {
+      $("#header").removeClass("menu-open");
+      $("body").removeClass("menu-open");
+    }
   });
 })(jQuery);

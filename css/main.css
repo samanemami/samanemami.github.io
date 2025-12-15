@@ -132,23 +132,6 @@ q:after {
 
 /* Mobile behavior */
 @media (max-width: 768px) {
-	body::before {
-		content: '';
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.35);
-		opacity: 0;
-		pointer-events: none;
-		transition: opacity 0.3s ease;
-		z-index: 999;
-	}
-
-	#header.menu-open~body::before,
-	body.menu-open::before {
-		opacity: 1;
-		pointer-events: auto;
-	}
-
 
 	#menu-toggle {
 		position: relative;
@@ -162,12 +145,13 @@ q:after {
 		left: 0;
 		height: 100vh;
 		width: 260px;
-		background: #ffffff;
+		background: #fff;
 		border-right: 1px solid #e7dcd2;
 		transform: translateX(-100%);
 		transition: transform 0.3s ease;
 		padding-top: 4rem;
-		z-index: 1000;
+		z-index: 20000;
+		pointer-events: auto;
 		display: block !important;
 		flex-direction: column;
 	}
@@ -2616,9 +2600,9 @@ body {
 	overflow: hidden;
 }
 
-body.is-menu-visible #wrapper {
+/* body.is-menu-visible #wrapper {
 	opacity: 0.15;
-}
+} */
 
 
 
