@@ -120,6 +120,50 @@ q:after {
 	content: none;
 }
 
+/* Hamburger button */
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Mobile behavior */
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #header .links {
+    position: absolute;
+    top: 3.5em;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #e7dcd2;
+    display: none;
+    flex-direction: column;
+  }
+
+  #header .links ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #header .links ul li a {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  #header.menu-open .links {
+    display: flex;
+  }
+}
+
+
 header p {
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-size: 0.7em;
@@ -2369,6 +2413,10 @@ body {
 /* ------------------------- */
 /* Navigation Links Section  */
 /* ------------------------- */
+
+#header .links i {
+  margin-right: 0.4rem;
+}
 
 #header .links {
 	flex: 1;
