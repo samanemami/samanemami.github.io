@@ -2560,7 +2560,11 @@ body {
 		width: 100%;
 		justify-content: center;
 		margin: 0.5rem 0 0;
-		display: none !important;
+		display: none;
+	}
+
+	#header.menu-open .links {
+		display: block;
 	}
 
 	#header .links ul {
