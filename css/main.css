@@ -133,6 +133,15 @@ q:after {
 /* Mobile behavior */
 @media (max-width: 768px) {
 
+	.section-container {
+		flex-direction: column;
+	}
+
+	#header {
+		position: relative;
+		z-index: 20000;
+	}
+
 	#menu-toggle {
 		position: relative;
 		display: block;
@@ -150,10 +159,15 @@ q:after {
 		transform: translateX(-100%);
 		transition: transform 0.3s ease;
 		padding-top: 4rem;
-		z-index: 20000;
+		z-index: 20001;
 		pointer-events: auto;
 		display: block !important;
 		flex-direction: column;
+	}
+
+	body::before {
+		z-index: 20000;
+		/* below the menu panel */
 	}
 
 	#header .links ul {
@@ -3475,13 +3489,6 @@ iframe {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
-}
-
-/* Responsive layout for mobile */
-@media (max-width: 768px) {
-	.section-container {
-		flex-direction: column;
-	}
 }
 
 
