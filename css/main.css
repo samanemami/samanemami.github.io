@@ -1553,6 +1553,11 @@ dl dd {
   #mini-bio #mini-menu {
     display: none !important;
   }
+
+  #footer,
+  #footer {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
