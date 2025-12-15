@@ -415,8 +415,6 @@ input[type="button"]:hover {
   background-color: var(--accent-color-hover);
   box-shadow: 0 6px 16px rgba(109, 40, 217, 0.2);
   transform: translateY(-2px);
-  border: solid 1px #c8e3e1;
-  color: #c8e3e1 !important;
 }
 
 .button:active,
