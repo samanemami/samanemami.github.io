@@ -185,7 +185,7 @@ q:after {
 	}
 
 	#header.menu-open .links {
-		display: block !important;
+		transform: translateX(0);
 	}
 
 	#header .links ul li a {
