@@ -415,8 +415,8 @@ input[type="button"]:hover {
   background-color: var(--accent-color-hover);
   box-shadow: 0 6px 16px rgba(109, 40, 217, 0.2);
   transform: translateY(-2px);
-  border: solid 1px #2ebaae;
-  color: #2ebaae !important;
+  border: solid 1px #c8e3e1;
+  color: #c8e3e1 !important;
 }
 
 .button:active,
@@ -574,7 +574,7 @@ input[type="tel"]:hover,
 select:hover,
 textarea:hover {
   transition: border-color 0.3s ease-in-out;
-  border-color: #2ebaae;
+  border-color: #e6f1f0;
 }
 
 input[type="text"]:focus,
@@ -583,7 +583,7 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-  border: solid 1px #2ebaae;
+  border: solid 1px #e6f1f0;
 }
 
 .select-wrapper {
@@ -887,7 +887,7 @@ ul.actions li:last-child {
 }
 
 ul.actions.pagination .button {
-  background: white;
+  background: rgb(4, 0, 0);
   line-height: 2.5em;
   height: auto;
   white-space: normal;
