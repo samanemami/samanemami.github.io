@@ -1643,6 +1643,38 @@ dl dd {
   #sidebar {
     display: none !important;
   }
+
+  #header.scrolled {
+    background: #ffffff !important;
+    border-bottom-color: #e7dcd2 !important;
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.03),
+      0 6px 20px rgba(0, 0, 0, 0.05) !important;
+
+    /* optional: keep mobile header height stable */
+    height: 3.5em !important;
+    padding: 0 1rem !important;
+  }
+
+  #header.scrolled h1,
+  #header.scrolled h1 a,
+  #header.scrolled .links ul li a,
+  #header.scrolled .main ul li a {
+    color: #333333 !important;
+  }
+
+  #header.scrolled .links ul li a:hover {
+    background-color: #5f5c5c !important;
+    color: #ffffff !important;
+  }
+
+  #header.scrolled .links ul li a.active {
+    background-color: #e7dcd2 !important;
+    color: #333333 !important;
+    box-shadow: none !important;
+  }
+
+
 }
 
 @media screen and (max-width: 800px) {
