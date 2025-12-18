@@ -2998,3 +2998,22 @@ body.is-share-visible #share-menu {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* HOME PAGE */
+body.home #wrapper{
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+  padding: 4.5rem 3rem;
+}
+
+body.home #main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.home .section-box-full{
+  width: 100%;
+  max-width: 1000px;
+}
