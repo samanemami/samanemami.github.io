@@ -1375,10 +1375,13 @@ dl dd {
   flex-direction: row-reverse;
   transition: opacity 0.5s ease;
   margin: 0 auto;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 1200px; 
   opacity: 1;
-  padding: 4.5em;
-  width: 90em;
+  /* padding: 4.5em; */
+  padding: 4.5rem 3rem;
+  /* width: 90em; */
+  width: 92%;
   overflow: hidden;
 }
 
@@ -1395,6 +1398,9 @@ dl dd {
 }
 
 #main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-grow: 1;
   width: 100%;
 }
@@ -2744,6 +2750,8 @@ body.is-share-visible #share-menu {
     0 6px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.3s ease;
   animation: fadeInUp 0.5s ease both;
+  width: 100%;
+  max-width: 1000px; 
 }
 
 .section-box-full:hover,
