@@ -3023,6 +3023,16 @@ body.home .section-box-full {
    NEWS PAGE
 ========================================================= */
 
+.news-year h2 {
+    font-size: 1.6rem;
+    font-weight: 300;      /* lighter */
+    letter-spacing: 0.15em;
+    color: #888;
+    margin: 3rem 0 1.5rem;
+    text-transform: uppercase;
+}
+
+
 .news-wrap h2 {
   margin-bottom: 1rem;
 }
