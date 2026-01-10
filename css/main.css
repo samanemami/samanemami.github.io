@@ -682,6 +682,7 @@ input[type="radio"]:focus+label:before {
   font-family: 'Academicons' !important;
   font-style: normal;
   font-weight: normal;
+  speak: none;
 }
 
 .icon {
