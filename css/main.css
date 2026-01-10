@@ -678,6 +678,11 @@ input[type="radio"]:focus+label:before {
 /* =========================================================
    ICONS / IMAGES
 ========================================================= */
+.ai {
+  font-family: 'Academicons' !important;
+  font-style: normal;
+  font-weight: normal;
+}
 
 .icon {
   text-decoration: none;
@@ -3048,12 +3053,13 @@ body.home .section-box-full {
 ========================================================= */
 
 .news-year h2 {
-    font-size: 1.6rem;
-    font-weight: 300;      /* lighter */
-    letter-spacing: 0.15em;
-    color: #888;
-    margin: 3rem 0 1.5rem;
-    text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 300;
+  /* lighter */
+  letter-spacing: 0.15em;
+  color: #888;
+  margin: 3rem 0 1.5rem;
+  text-transform: uppercase;
 }
 
 
