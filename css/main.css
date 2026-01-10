@@ -678,13 +678,6 @@ input[type="radio"]:focus+label:before {
 /* =========================================================
    ICONS / IMAGES
 ========================================================= */
-.ai {
-  font-family: 'Academicons' !important;
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-}
-
 .icon {
   text-decoration: none;
   border-bottom: none;
